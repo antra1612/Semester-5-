@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>
+			Moving items to list box!
+		</title>
+		<link rel="stylesheet" href="Listbox.css">
+	</head>
+	<body>
+	<p id="demo"></p>
+	<h2 align="center">Moving items to list box!<br><br>
+	<table align="center">
+		<form method="post">
+		<tr>
+			<td>
+				<select name="Fast Food" id="Fast_Food" class="select">
+					<option value="">Pizza</option>
+					<option value="">Brownie</option>
+					<option value="">Pasta</option>
+					<option value="">Noodles</option>
+				</select>
+			</td>
+			<td>
+				<button id="move" class="button" onclick="move()">Click to move items to listbox</button>
+			</td>
+			<td>
+				<select name="box1" id="box1" class="select">
+				<script type="text/javascript" language="javascript">
+					function move()
+					{
+						document.getElementById("box1").value="Brownie";
+					}
+				</script>
+				</select>
+			</td>
+		</tr>
+		</form>
+	</table></h2>
+		
+	</body>
+</html>
