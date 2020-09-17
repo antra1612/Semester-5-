@@ -1,1 +1,2 @@
 ChangesBranch1
+This line was added in ChangesBranch.
