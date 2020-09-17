@@ -1,2 +1,3 @@
 ChangesBranch1
 New line added from git.
+Line added in Master.
