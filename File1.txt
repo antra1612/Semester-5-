@@ -1,1 +1,2 @@
 ChangesBranch1
+New line added from git.
