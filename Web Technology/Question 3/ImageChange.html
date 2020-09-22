@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>
+			Image change
+		</title>
+		<script language="jacvascript" type="text/javascript">
+			function changeImage()
+			{
+				var number=Math.floor(Math.random() * 2);
+				var imageSrc=["scenery1.jpg","scenery2.jpg","scenery3.jpg"];
+				document.getElementById("image").src=imageSrc[number];
+			}
+		</script>
+	</head>
+	<body>
+		<p align="center">
+		<img src="scenery1.jpg" width="500px" height="500px" onmouseover="changeImage()" id="image">
+		</p>
+	</body>
+</html>

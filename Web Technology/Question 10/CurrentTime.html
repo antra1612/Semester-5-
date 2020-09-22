@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>
+			Displaying current time
+		</title>
+	</head>
+	<body>
+		1<h2><p align="center" id="time" style="font-family:Segoe Script;"></h2>
+		</p>
+		<script>
+			window.onload=function() {
+				getTime();
+			}
+			function getTime()
+			{
+				var today=new Date();
+				var hrs=today.getHours();
+				var min=today.getMinutes();
+				var sec=today.getSeconds();
+				
+				min=formatDigits(min);
+				sec=formatDigits(sec);
+				
+				document.getElementById("time").innerHTML=hrs+":"+min+":"+sec;
+				
+				setInterval("getTime()",1000);
+			}
+			function formatDigits(digit)
+			{
+				if(digit<10){
+					digit="0"+digit;
+				}
+				return digit;
+			}
+		</script>
+	</body>
+</html>
