@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>
+			Moving items to list box!
+		</title>
+		<link rel="stylesheet" href="comboBox.css">
+		<script>
+			function moveToSelected()
+			{
+				var flag=0;
+				var items=document.getElementById("Fruits");
+				var element = document.getElementById("newElement").value;
+				for(var i=0;i<items.length;i++)
+				{
+					if(!element.toLowerCase().localeCompare((items.options[i].text).toLowerCase())){
+						flag=1;
+						break;
+					}
+				}
+				if(flag==0)
+				{
+					var option = document.createElement("option");
+					option.text =element;
+					document.getElementById("Fruits").add(option);
+				}
+			}
+		</script>
+	</head>
+	<body>
+	<div align="center">
+		<form>
+			  <label>Enter fruit which you want to add:</label><input type="text" id="newElement">
+		</form>
+		<button class="button"  id="button1" onclick="moveToSelected()">Add</button><br><br>
+			<form>
+			  <select id="Fruits"  class="myselect">
+				<option>Apple</option>
+				<option>Pear</option>
+				<option>Banana</option>
+				<option>Orange</option>
+			  </select>
+		</form>
+	</div>
+	</body>
+</html>

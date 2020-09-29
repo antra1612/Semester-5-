@@ -57,6 +57,11 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+input[type=text]{
+	border-radius:4px;
+	box-sizing:border-box;
+	height:30px;
+}
 .select {
     display: block;
     font-size: 16px;
