@@ -1,0 +1,38 @@
+
+<html>
+	<head>
+		<title>
+			Journey
+		</title>
+	</head>
+	<body>
+	<table>
+	<tr>
+		<th>Distance
+</th>
+		<th>Time
+</th>
+		<th>Speed
+</th>
+	</tr>
+	
+	<tr>
+		<td>25</td>
+		<td>5</td>
+		<td>5</td>
+	</tr>
+	
+	<tr>
+		<td>30</td>
+		<td>5</td>
+		<td>6</td>
+	</tr>
+	
+	<tr>
+		<td>35</td>
+		<td>5</td>
+		<td>7</td>
+	</tr>
+	</table>
+	</body>
+<html>
