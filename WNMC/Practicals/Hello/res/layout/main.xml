@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="@string/str" android:layout_width="wrap_content"></TextView>
+<EditText android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="118dp">
+    <requestFocus></requestFocus>
+</EditText>
+<ToggleButton android:text="ToggleButton" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+<CheckBox android:text="CheckBox" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+<RadioButton android:text="RadioButton" android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+<Button android:id="@+id/button4" android:text="Button" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+<Spinner android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_width="match_parent" android:entries="@array/subjects"></Spinner>
+</LinearLayout>

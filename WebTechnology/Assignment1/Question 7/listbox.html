@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>
+			Moving items to list box!
+		</title>
+		<link rel="stylesheet" href="ListBox.css">
+		<script>
+			function moveToSelected()
+			{
+				var x = document.getElementById("Fast_Food");
+				var i=x.selectedIndex;
+				var y=x.options[i].text;
+				var option = document.createElement("option");
+				option.text =y;
+				document.getElementById("selected_items").add(option);
+				x.options.remove(i);
+			}
+			function moveToUnselected()
+			{
+				var x = document.getElementById("selected_items");
+				var i=x.selectedIndex;
+				var y=x.options[i].text;
+				var option = document.createElement("option");
+				option.text =y;
+				document.getElementById("Fast_Food").add(option);
+				x.options.remove(i);
+			}
+			
+	</script>
+	</head>
+	<body>
+	<h2 align="center" >
+		<form>
+			  <select id="Fast_Food"  class="myselect">
+				<option>Apple</option>
+				<option>Pear</option>
+				<option>Banana</option>
+				<option>Orange</option>
+			  </select>
+		</form>
+			<button class="button"  id="button1" onclick="moveToSelected()">Move to selected</button>
+			<button class="button"  id="button1" onclick="moveToUnselected()">Move to unselected</button>
+		<form>
+			<select  id="selected_items" class="myselect">
+			<option></option>
+			</select>
+		</form>
+	</h2>
+	</body>
+</html>

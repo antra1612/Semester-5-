@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Greeting message</title>
+	</head>
+	<script>
+		var request;
+		function showGreeting(){
+			if(window.XMLHttpRequest){
+				request = new XMLHttpRequest();
+			}
+			else if(window.ActiveXObject){
+				request = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			try{
+					request.onreadystatechange=getGreeting;
+					request.open("GET","Question2.jsp",true);
+					request.send();
+				}
+			catch(e){
+				alert("Unable to connect to the server!");
+			}
+		}
+		function getGreeting(){
+		if(request.readyState==4){
+				var val = request.responseText;
+				alert(val);
+			}
+		}
+		
+	</script>
+	<body>
+		<center>
+			<form>
+				<label>Press the button for greeting message:</label>
+				<input type="button" value="Push button" onclick="showGreeting()">
+			</form>
+		</center>
+	</body>
+</html>

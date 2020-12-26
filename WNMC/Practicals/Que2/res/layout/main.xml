@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll" android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/container" android:layout_height="fill_parent"
+		android:orientation="vertical" android:background="@color/layout_background">
+		<TextView android:id="@+id/tvCourse" android:text="@string/main_tv_course"
+			android:layout_marginRight="15dp" android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_marginLeft="20dp"
+			android:textColor="#FFFFFF" android:layout_marginTop="20dp"
+			android:textStyle="bold"></TextView>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_width="match_parent" android:hint="@string/main_et_full_name"
+			android:layout_marginLeft="15dp" android:id="@+id/etApplicantName"
+			android:layout_marginTop="20dp" android:layout_height="match_parent"></EditText>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_father_name" android:layout_marginLeft="15dp"
+			android:id="@+id/etFatherName" android:layout_marginTop="20dp"></EditText>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_mother_name" android:layout_marginLeft="15dp"
+			android:id="@+id/etMotherName" android:layout_marginTop="20dp"></EditText>
+		<TextView android:id="@+id/tvGender" android:text="@string/main_tv_gender"
+			android:layout_marginRight="15dp" android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_marginLeft="20dp"
+			android:layout_marginTop="20dp" android:textColor="#FFFFFF"
+			android:textStyle="bold"></TextView>
+		<RadioGroup android:layout_width="wrap_content"
+			android:layout_marginLeft="15dp" android:id="@+id/rgGender"
+			android:layout_height="wrap_content">
+			<RadioButton android:id="@+id/rbMale"
+				android:layout_width="wrap_content" android:checked="true"
+				android:layout_height="wrap_content" android:text="@string/main_rb_male"></RadioButton>
+			<RadioButton android:id="@+id/rbFemale"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/main_rb_female"></RadioButton>
+		</RadioGroup>
+		<TextView android:id="@+id/tvNationality" android:text="@string/main_tv_nationality"
+			android:layout_marginRight="15dp" android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_marginLeft="20dp"
+			android:textColor="#FFFFFF" android:layout_marginTop="20dp"
+			android:textStyle="bold"></TextView>
+		<ToggleButton android:id="@+id/tgbNationality"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:textOn="@string/main_tgb_on_text" android:textOff="@string/main_tgb_off_text"
+			android:layout_marginLeft="15dp" android:layout_marginTop="15dp" />
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_phone" android:layout_marginLeft="15dp"
+			android:id="@+id/etPhone" android:layout_marginTop="20dp"></EditText>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_email" android:layout_marginLeft="15dp"
+			android:id="@+id/etEmail" android:layout_marginTop="20dp"></EditText>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_10th_percentage"
+			android:layout_marginLeft="15dp" android:id="@+id/et10Percentage"
+			android:layout_marginTop="20dp"></EditText>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_12th_percentage"
+			android:layout_marginLeft="15dp" android:id="@+id/et12Percentage"
+			android:layout_marginTop="20dp"></EditText>
+		<EditText android:layout_marginRight="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:hint="@string/main_et_bachelor_percentage"
+			android:layout_marginLeft="15dp" android:id="@+id/etBachelorPercentage"
+			android:layout_marginTop="20dp"></EditText>
+			<Spinner android:id="@+id/spCourse"
+			android:layout_marginRight="15dp" android:layout_marginLeft="15dp"
+			android:layout_height="wrap_content" android:layout_width="match_parent" />
+		<Button android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/btnSubmit"
+			android:layout_marginLeft="15dp" android:layout_marginRight="15dp"
+			android:layout_marginTop="20dp" android:text="@string/main_btn_submit">
+		</Button>
+	</LinearLayout>
+</ScrollView>

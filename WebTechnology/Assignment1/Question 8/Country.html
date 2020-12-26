@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>
+			Countries
+		</title>
+		<link rel="stylesheet" href="Country.css">
+		<script type="text/javascript" src="Country.js"></script>
+	</head>
+	<body>
+	  <form>
+			<label>Select country:</label>
+			<select class="myselect" id="country" size="2" onchange="getStates()">
+				<option value="India">India</option>
+				<option value="Australia">Australia</option>
+			</select>
+	 </form>
+	 <form>
+			<label>Select state:</label>
+			<select class="myselect" id="state" size="4" onchange="getCities()">
+			</select>
+	 </form>
+	 <form action="ShowLocation.html">
+			<label>Select city:</label>
+			<select class="myselect" id="city" size="4" onchange="getLocation()">
+			</select>
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+	 </form>
+	</body>
+</html>

@@ -1,0 +1,791 @@
+Commit_ID,Commit_Author_Login,Commit_Message,Commit_Date,Lines_Added,Lines_Deleted
+2457bf1d53b0e91aa69c644fce6af71b87fb78c3,codal-sid,"Merge pull request #309 from codal/urlFix
+
+Url fix",2020-09-28 11:25:13,43,12
+955e3d035a0a712c7dd8dcd5273d4df97ea7bd2f,codal-jsojitra,fix url redirection issue,2020-09-28 11:21:50,15,7
+27dd33af5e3662ea8fe04522fdd363a517298738,codal-jsojitra,project redirect change,2020-09-28 11:10:36,2,1
+541e7ee2eae7c96114cf85fdfa461a82ae4a2a60,codal-sid,"Merge pull request #307 from codal/slack_feature
+
+Slack feature",2020-09-16 06:55:22,227,4
+b21785d4b33553523807c4e49f07658157e0a301,pkiri-codal,reverted django.db,2020-09-16 06:53:13,0,0
+a784082ffd5f2cf3152513e7a22b4ab4ac5c56a5,pkiri-codal,optimized,2020-09-16 06:37:46,2,5
+b946c55962967b1d42e6e5fd5c4d550f2ac1c7b2,pkiri-codal,Slack & GSuite,2020-09-15 15:08:03,99,54
+d70070d8fc0e0acf6a1d24061a35ea3da6eb59f3,pkiri-codal,added missing delay(),2020-09-11 11:30:12,1,1
+20c1c809ababff0877708513dd5bbe3f25031b2e,pkiri-codal,time complexity reduced,2020-09-11 11:17:12,129,118
+8e165c446b30fee38fa68db452a7ecf73adc43cb,pkiri-codal,celery task initializing,2020-09-07 08:29:09,4,4
+fdb294648af03fd66c10bf7b962993127b43ddc6,codal-jsojitra,view request with id,2020-09-05 06:52:09,27,5
+dbfa817cd22bc3fd7c3754593f12552c11be7e22,pkiri-codal,minor improves,2020-08-31 22:20:35,0,1
+84a7690dd74f0c2782c51811d72d263db50d0f62,pkiri-codal,minor updations,2020-08-31 21:40:19,13,6
+2d8f42918254cd62b51c46e8d0a0de312bf89707,pkiri-codal,Adding some new things,2020-08-31 15:17:03,4,4
+d079794fdfaca5671315d38c86c9b11c1fe1df0f,pkiri-codal,Slack Feature Completed,2020-08-31 14:43:04,3,3
+11eb1e336fea333aeb2372bb31910863ccf27ac7,pkiri-codal,Slack Feature Completed,2020-08-31 14:37:40,84,97
+b5afc23abd2096d6c16e857019b82493e3a0733b,pkiri-codal,changes,2020-08-31 09:39:29,32,2
+14846559d37566031447b2e8e8a7e28910c66ef1,pkiri-codal,partially completed and tested,2020-08-31 09:25:35,93,12
+a83f4135640b87b09661e246ed66fd4672c2af1d,pkiri-codal,slack features almost done,2020-08-28 15:16:58,21,6
+dc6255519dcb841683d5fa3d738f547d49bcdab9,pkiri-codal,request for resource/ slack,2020-08-28 12:00:10,22,0
+6f3c0b42db995273aa13c6df1d8470fe2eb0c67b,pkiri-codal,Slack Client,2020-08-26 10:21:12,6,1
+8ab4099d48f2c0d2f08b45a986b10ef9bee7a274,pkiri-codal,added slack_id,2020-08-07 12:50:06,3,2
+e577610883abddc3b6f8d0caf9728893c2a64335,pkiri-codal,Slack configurations,2020-08-07 07:09:31,22,1
+bbc9658b6b7a0868786ba3a681332fc4a8c3aac5,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into slack_feature,2020-08-04 07:39:02,0,0
+a58cf729bc0f6cf76cee5d1b8f1a80b919e2f844,pkiri-codal,Merge branch 'urlFix' of https://github.com/codal/rp-tool-py into slack_feature,2020-08-04 07:38:37,507,594
+58d5a88ee6211b62529c0dceb7a8c804bedcd821,codal-sid,"Merge pull request #306 from codal/urlFix
+
+Quick fix",2020-08-04 06:29:18,10,10
+50ab5ed876a376f65bf37bdbee8deb37f083f809,codal-jsojitra,Quick fix,2020-08-04 05:15:18,10,10
+3b78c01aaf501cd33b029d52a4dff12766a948e1,codal-sid,"Merge pull request #305 from codal/urlFix
+
+Url fix",2020-08-04 03:34:47,511,598
+14dab59cede13c20d0bb68b721071ac0105a6757,codal-jsojitra,remove warning from request module,2020-08-03 07:15:05,106,113
+a7eabad61af4523f965bc5d0e2b843c5cdfafda6,codal-jsojitra,"remove warning from add, edit and project details pages",2020-08-03 06:27:03,44,57
+de7441a40f92a752322f0be7605ff83d3619bab4,codal-jsojitra,remove warning from employe listing,2020-08-03 06:13:03,58,47
+c65c67a1297b8aa01a5c4c5c4f552f626467a243,codal-jsojitra,remove warning from Organization,2020-08-03 05:52:03,4,4
+c62f5ef30edfdf7048af8fbc4b78562afa42fc21,codal-jsojitra,remove warning from header,2020-08-03 05:49:26,7,7
+24f6d3a90a89b0f382c7ca9e6d7736ccafbe421f,codal-jsojitra,remove waring from login page,2020-08-03 05:47:26,8,11
+49956f5df37ea20b8c330bc70bcc497932881eaf,codal-jsojitra,"git remove warning from profile,edit profile pages",2020-08-03 05:44:37,59,63
+ba0100879b8043346758bcaca6304be4008efce6,codal-jsojitra,disbale warning for temporary and add user redirection after login on previous page,2020-08-03 04:27:45,122,256
+cf8a8158818e1a426ebeed9a80bee72734d333ce,codal-jsojitra,project redirection URL Change.,2020-08-02 06:59:08,53,52
+5bb7981be12d1f542b33fd8cbad62272774a82d8,codal-jsojitra,profile url change in all pages,2020-08-02 04:51:50,77,31
+844739634062501289fe020611d2bfb218f7087a,codal-jsojitra,User profile redirect with id in addressbar WIP,2020-07-31 15:46:29,54,29
+7145a24936d021eefa1b3141b71cfce7d1dedb30,codal-jsojitra,change placeholder as per suggestion in slack,2020-07-31 14:41:23,9,18
+3d4fa188f8c47ac8e2b1fec2af12619335a95187,pkiri-codal,added slacker library,2020-07-31 10:36:37,1,0
+0e5d4ba97e3db3232ee38d900059afa7b7245948,pkiri-codal,slack library for Python,2020-07-31 08:41:19,1,0
+d5f21c9a67aa466d1a42b8b1a41e3ee95e9df6e8,codal-sid,"Merge pull request #300 from codal/bugs_fixes
+
+same allocation issue solved",2020-07-24 08:57:40,42,25
+456d1eca8abbc1dfd1a5288ca30e38559b9bee93,pkiri-codal,minor formatting,2020-07-24 08:34:25,3,3
+508cdd9e5b7dfa25d5b778759a55de89b84fccca,pkiri-codal,added function in helpers,2020-07-24 08:30:25,19,19
+e9cc6ecc0f1396d98fc423a9c07c740c4faf382a,pkiri-codal,added function in helpers,2020-07-24 08:25:18,21,17
+f490c90664ef558d635736b4ce4d2285ff8d5c5e,pkiri-codal,added filter in admin,2020-07-23 07:22:18,1,1
+2e91afac4caf275435205dac42405badfd08b72b,pkiri-codal,update with changes,2020-07-16 09:21:59,1,1
+b0edc4f9cffb0fc76b0e1de2db349e2f9fd611fa,pkiri-codal,update code/ tested,2020-07-08 11:08:09,2,2
+98b323798c8e763e33f6ece8a639b3ee008d769b,pkiri-codal,updated,2020-07-06 08:13:32,8,7
+7a86aafbc73d4cf83dc5b5ad106ae800f7a96eaa,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into bugs_fixes,2020-07-02 09:42:19,18,29
+6fdb792ece3683103788e4ab60152b9b23bf90f9,codal-sid,"Merge pull request #303 from codal/pagination
+
+bug fixed on employe profile page""",2020-07-01 06:35:32,18,29
+18bc4439c856fed905576964096265d332cce7a1,codal-jsojitra,"bug fixed on employe profile page""",2020-07-01 05:47:36,18,29
+82d2194a91d262a455aa52a6f66714e4ae2e7b47,pkiri-codal,updated code,2020-06-26 12:54:41,5,4
+ce352ba59ec43b7714057ba5d2e37c9ac70e72bf,pkiri-codal,solved,2020-06-26 10:52:06,12,17
+1a568543aad46aa2d68139f72ea79be970b91e29,pkiri-codal,removed some code_not_completed,2020-06-26 05:01:03,1,16
+a72cbf92a5190e576feeb40c608ae581f88289d3,pkiri-codal,applied signal,2020-06-26 01:01:03,31,21
+6630960c4b2fdbdbc2ab48c1af52eff50f04ae6a,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into bugs_fixes,2020-06-25 21:28:37,2,2
+1bccb21adaa927f7c430a4e4d5a42f0d3ae75cf3,ppatelcodal,"Merge pull request #301 from codal/pagination
+
+change meta description  and title",2020-06-25 07:38:44,2,2
+a9ac9847b45ea87222d206772122c1c8d40edccf,codal-jsojitra,change meta description  and title,2020-06-25 07:33:49,2,2
+ff89c2f64ff8201278a971d17573fd326ae0487e,pkiri-codal,same allocation issue,2020-06-25 07:15:56,21,0
+2b4b26172faa710605a998b172408509900e2f90,codal-sid,"Merge pull request #298 from codal/cron
+
+make fixtures load once tenant is created and sync g-suits users.",2020-06-24 07:34:31,121,111
+e8aa7d1a594127aebee8b9be334b5dd61e487b27,codal-sid,modify task schedule timing,2020-06-24 07:31:43,1,1
+0a4bc4c0f4e4e8aaee569c3e92920b4ffd655884,codal-sid,make fixtures load once tenant is created and sync g-suits users.,2020-06-24 07:29:54,121,111
+d611d99ad896286325635edb6afcc187df927d84,codal-jsojitra,"Merge pull request #296 from codal/pagination
+
+add parameter",2020-06-15 10:44:25,3,3
+d16c67e5ff761b0e5a18833ec0e064b54305524a,codal-jsojitra,add parameter,2020-06-15 10:42:22,3,3
+de14d5a799b7230deb8b9c56946be881b461bc4e,codal-sid,"Merge pull request #294 from codal/pagination
+
+Pagination",2020-06-12 10:39:07,979,1262
+9c3b59ed97ef859373c43f609ddb17394fbef09d,codal-jsojitra,remove unwanted code,2020-06-12 10:32:22,40,41
+98784ef47e7fe0a430e8bc85e906e4e4b5aa9c31,codal-jsojitra,rename depricated version,2020-06-12 10:15:26,44,112
+7eff5fbbadd24b0e717889bde29d2016db917124,codal-jsojitra,remove code,2020-06-12 10:02:18,8,6
+3a7a7d190c416518797f630b2c588387cc39be1c,codal-jsojitra,parameter changes,2020-06-12 10:01:21,893,1109
+9a393ccf11ddcfaea3738c2447bf8ad1229f3f4e,codal-sid,"Merge pull request #292 from codal/bugs_fixes
+
+Bugs fixes",2020-06-10 13:06:09,62,7
+892afc8a384f626dc6aa1c298abf2bb8fb89bb8f,pkiri-codal,finalized code,2020-06-10 13:00:49,1,1
+5c8b0b1b0662da3d9b7e6a53a4e504f79ac0230a,pkiri-codal,optimization,2020-06-10 12:34:49,1,1
+3b4cc7b2eefd88aeaef2ab747deb5af1bb903c23,pkiri-codal,optimization,2020-06-10 12:21:15,2,7
+665e04df220f8b3bdffb2d11bb7772ddfb2a056b,pkiri-codal,fixes,2020-06-10 11:45:48,1,1
+66482293f4ceea4797fa3aa5deef5980e7ceff2f,pkiri-codal,fixes,2020-06-10 11:45:12,6,1
+3bc2dec2f2715a8b6e715a104175700bb2728f8c,pkiri-codal,fixes,2020-06-10 11:28:51,3,5
+447a8629f1027983f38a08cd1fd4eae787567955,pkiri-codal,minor corrections,2020-06-10 11:03:17,7,10
+f2a310983cbbdd18d4d4c8f2018f98f0b6e97c5d,pkiri-codal,issues resolved,2020-06-10 10:53:41,10,3
+fe7c2a3122a6a2639d176fa14448b2180a4a454d,pkiri-codal,issues solved,2020-06-10 08:21:21,3,0
+d53db848acd240a4d9293b418c1ae30a493feae4,pkiri-codal,code formatting,2020-06-10 07:25:37,4,2
+61c385fc163a057591128dbe2969116e2541bde2,pkiri-codal,final code,2020-06-10 07:20:26,1,2
+3d51d0b22f32f7d0b1589fbf38a17c275568f827,pkiri-codal,minor change,2020-06-10 07:14:11,1,2
+dafd77724c74df09d7877f768867acab792269e1,pkiri-codal,needed rollbacks,2020-06-10 07:11:04,3,3
+b729bbd15c6402512f54fc22c383d7fd9cb0ce88,pkiri-codal,corrections,2020-06-10 06:59:29,2,2
+7a129bd281eca6ffecedc851cdf833469c1b4d28,pkiri-codal,minor corrections,2020-06-10 06:52:07,8,8
+4ea98eff9f606496a0cd9888f4b337c39d012172,pkiri-codal,changes,2020-06-10 06:43:28,10,20
+665b98225df27c138c63d20dfd728645ed60d22f,pkiri-codal,minor changes,2020-06-10 06:02:10,3,3
+97d7cd360f25f64a4410653147e7ebd90cf301cb,pkiri-codal,optimized code,2020-06-10 05:56:00,16,59
+96133404b7b313293b1dcf77197069eb439f7a48,pkiri-codal,exception handling,2020-06-09 06:43:15,6,3
+19ab8ffa044221631071b15bd2420f2fc1881a12,pkiri-codal,Issues solved!,2020-06-08 13:48:16,60,4
+4d26c911da81919eedf4d5d847da55aa16fc7af3,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into bugs_fixes,2020-06-03 23:00:40,1,1
+dccf229dc29e4e99f3075489aaf7590b30599719,codal-sid,"Merge pull request #290 from codal/fetch_projects_from_tempo
+
+changes in pagination code",2020-06-03 11:35:09,1,1
+30dea91f618f1a7934c4f63f6c2534f86e38b1a9,sshaikhcodal,changes in paginaion code,2020-06-03 11:27:18,1,1
+ba1eede70ae54cf0b007ad48a8dfdcd471bb78bc,pkiri-codal,partially completed,2020-06-03 09:45:30,49,5
+68bcf177544f8caf7720b3a4761d4a169bb6fc97,codal-sid,"Merge pull request #288 from codal/pagination
+
+Pagination",2020-06-03 06:19:37,343,214
+b0958de70b900f296485be5d1ec6f9d6b89bdfbd,codal-jsojitra,intigrate empoye tempo hours,2020-06-03 06:09:27,2,2
+3e9a9d8000d4437869737585dc53dd674c6de377,codal-sid,"Merge pull request #286 from codal/fetch_projects_from_tempo
+
+fetch tempo hours for per project of particular emploee",2020-06-02 12:51:08,71,3
+1a42210857b3a0851a198254326cc76b451cd380,sshaikhcodal,changes in permission file,2020-06-02 12:46:04,0,2
+95a81240912b6c1b6e969c0395a47d7e9cf8cb6c,sshaikhcodal,binary files removed,2020-06-02 12:32:35,0,0
+39db04a9ebc2d1f5a2f5e5e8f6df1d9726b4ea7f,sshaikhcodal,changes,2020-06-02 12:21:27,4,7
+97f4739d4efa32a1cd3d807965638d1211cb3414,sshaikhcodal,changes made for multiple jira and response list,2020-06-02 11:37:06,45,60
+8be95f6f6e1e5c2590ea6a6f5430f95619513de2,sshaikhcodal,changes in get worklog api for multiple Jira account,2020-06-01 12:32:11,61,41
+44563f8e2fa9e98c8ce6741083d186b34e52e86d,sshaikhcodal,fetch tempo hours for per project of particular emploee,2020-05-29 11:08:35,69,1
+25b69a6bb3d6e18b1601c84a2143be0bc2cd1387,codal-jsojitra,add employee time log,2020-05-22 10:58:58,343,214
+e93781a54d830e62f53674c71cfb3d4a229f99ac,codal-sid,"Merge pull request #283 from codal/pagination
+
+Pagination",2020-05-21 11:58:07,93,16
+54fd49723812e7bc5e0e1407f881998d7a6af893,codal-jsojitra,add dynamic tag in user profile,2020-05-21 11:55:16,91,14
+5d18f5197100e729b0430cb5fa775557265f8cfe,codal-sid,"Merge pull request #280 from codal/RPT-129
+
+change project update response.",2020-05-20 11:19:43,1,1
+9ffe43377bee876a78f2fb09cbd1707728490d87,codal-jsojitra, edit project changes,2020-05-20 11:19:26,2,2
+78267689738ce1d72d7abc823e4d306a7f7ff57b,codal-sid,change project update response.,2020-05-20 11:17:01,1,1
+e2ca8c626a1983d24bc919a3e29f50acd7bca8f6,codal-sid,"Merge pull request #278 from codal/RPT-129
+
+added previous start date and fix round of issue in open hours",2020-05-20 10:54:06,58,10
+1f6854aec5114ae82698feb2bd3ae561f028b54b,codal-sid,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into RPT-129,2020-05-20 10:52:56,0,0
+8c5f4c37f03b720b0c1d46d3544e81bc505646d1,codal-sid,"Merge pull request #277 from codal/pagination
+
+change code for start date and edit project",2020-05-20 10:51:31,178,81
+216f2e7a20190852893dd0b5efde10716edc38bd,codal-sid,RPT-129 #time 1h added pre_start date and fix round of issue in open hours.,2020-05-20 10:50:20,58,10
+93eb2e68121fcce7bbcf9af85d045cc467bca9ff,codal-sid,Merge branch 'pagination' of https://github.com/codal/rp-tool-py into RPT-129,2020-05-20 10:22:15,178,81
+a26862a31f16cc1d027a7ed94d250cf5e3801f92,codal-jsojitra,change code for start date and edit project,2020-05-20 10:19:22,178,81
+728be2124ff97338164bca53a070448b087e1f87,codal-sid,"Merge pull request #275 from codal/RPT-129
+
+modify api response and add/remove pagination based on params",2020-05-18 10:55:04,16,9
+e2f8d67839ccb56c32ba6a8cbb3ce1ca7bdd412b,codal-sid,RPT-129 #time 30m modify api response and add/remove pagination based on params,2020-05-18 10:54:18,16,9
+6eb6a2819fd568133a44acd6539c4a12e40c28ea,codal-sid,"Merge pull request #274 from codal/pagination
+
+change parameter in hours api",2020-05-18 10:48:25,12,10
+c7c43d80c9542f3fd69abf118dcf5413c0ae5798,codal-jsojitra,change condtion based on BE response,2020-05-18 10:46:01,10,11
+5bfe3e6811811ce5b1a26279e0bc508434dfdf19,codal-jsojitra,change parameter in hours api,2020-05-18 10:31:48,6,3
+018fd5415dd5d00cd89ee6ab8dbe87b95a9d5e1e,codal-sid,"Merge pull request #272 from codal/pagination
+
+Pagination",2020-05-14 11:46:23,35,9
+181e27f09da212fee1d70d4e1447659768171d3a,codal-jsojitra,multiple tag in people filter,2020-05-14 11:43:57,1,4
+6c0e2270595c1efef6a28344b6a32096902eb476,codal-jsojitra,multiple tag in people filter,2020-05-14 11:40:20,35,6
+e015bf8f22520af56565e47d9af357509ad510e4,codal-sid,"Merge pull request #270 from codal/RPT-129
+
+ anding operation issue in filter by project and filtering by tag on employee listing page.",2020-05-14 10:45:22,15,2
+4c7312cb5c479a753a82228568eb7e60108d6d82,codal-sid,RPT-129 #time 1h fix anding operation issue in filter by project and filtering by tag on employee listing page.,2020-05-14 10:44:19,15,2
+730fa81683008fea1201d3920b90c87aa9b8360d,codal-sid,"Merge pull request #268 from codal/pagination
+
+add pagination on user profile",2020-05-13 11:31:52,315,254
+c3fa8d051fe830d94a71337d3c4de2febab6156c,codal-jsojitra,add pagination on user profile,2020-05-13 11:27:33,315,254
+551ceedb2e20f72baf1748eb261915e1d37f29da,codal-sid,"Merge pull request #266 from codal/pagination
+
+Pagination",2020-05-13 09:57:41,633,180
+024028ed6f66b1632bd75dfa384fa298ec9d0fb1,codal-jsojitra,request resource allocation bug resolv,2020-05-13 09:52:41,294,87
+d42ac5faad3ddce48bb565ac361c530ab6bcdb7c,codal-jsojitra,add pagination in project details team and resource request,2020-05-13 07:53:41,347,101
+d8dfe9128757d1fee4e83661ab6f635d0922c54b,codal-sid,"Merge pull request #264 from codal/move_reset_fix
+
+Move reset fix",2020-05-13 05:27:51,56,49
+5fffae4a5bcc9b55e5cf5d2226bf1e9b2d114e8b,codal-jsojitra,remove extra code,2020-05-13 05:09:38,3,13
+16f5c682060d65b75c89840fd3d815b21f3b3e9a,codal-jsojitra,css changes,2020-05-12 13:53:34,49,17
+72aec7579448ffcbb95deb35a1a258255584c4ca,codal-jsojitra,bug fix,2020-05-12 13:37:59,4,19
+0f2071d8f001b3df6da7f6d44070c29fb708fcd0,codal-sid,"Merge pull request #262 from codal/move_reset_fix
+
+view request bug fix",2020-05-12 13:36:39,62,29
+c6d5df72db159fa0628c9c6fa24f255d2805bc4d,codal-sid,"Merge pull request #261 from codal/RPT-129
+
+added validate in request updates for resource request and change allocation request.",2020-05-12 13:34:56,103,3
+dc5049fece1370051e00b8134a10513da9245ddb,codal-sid,RPT-129 #time 1h added validation to update move-to-project requests,2020-05-12 13:34:22,29,1
+5525779b2dd4ecf70c7d75572191c64d68a27e33,codal-jsojitra,add start and end date validation,2020-05-12 13:32:49,11,10
+21eded8d326b25ca6d00bb9b0aa4f9bbac19c05c,codal-sid,RPT-129 #time 2h added validate in request updates for resource request and change allocation request.,2020-05-12 12:53:57,75,3
+55152e29d4a3db84fb253c1c3f641e2d8986375a,codal-jsojitra,view request bug fix,2020-05-12 12:39:45,51,19
+d4b8f64bba7321166f1f76eb0482e3c2049298a8,codal-sid,"Merge pull request #258 from codal/move_reset_fix
+
+change logic for request pagination and add, change,and move allocation",2020-05-12 10:59:31,61,23
+1528407b7eb226fd6607b7a44777f48be79c33b8,codal-sid,"Merge pull request #259 from codal/RPT-129
+
+added validation while creating resource request, move to project and change allocation request.",2020-05-12 10:59:07,200,34
+613bdc7e52c9cf0486a840cc0dd9255eb030608c,codal-sid,RPT-129 #time 10m fix validation message of over allocation,2020-05-12 10:58:34,6,6
+9656e27ab6a81215e8e3f30b5aee7571c06e3677,codal-jsojitra,"change logic for request pagination and add, change,and move allocation",2020-05-12 10:50:54,1,1
+08e0547fc1457006fb64af2135c5752742156ea1,codal-sid,"RPT-129 #time 12h added validation while creating resource request, move to project and chnage allocation request.",2020-05-12 10:50:28,200,34
+df74e64995dd3c09f033d8bba7c48836d9312d64,codal-jsojitra,"change logic for request pagination and add, change,and move allocation",2020-05-12 10:45:11,62,24
+611c029b243aba8a577b359ad11033fc6cb455fc,codal-sid,"Merge pull request #256 from codal/move_reset_fix
+
+resource key change and user profile issue change",2020-05-12 09:03:05,168,97
+fcf009fd08d8a10897f98a06718d775b19d80333,codal-jsojitra,view request bug fix,2020-05-12 08:09:48,57,54
+85c2c8d9528a03c3e4175a22327e4fbe2f18047a,codal-jsojitra,css changes,2020-05-12 06:51:57,58,17
+b5ca7184cd2aa4973f5b80f7816fa328573666f8,codal-jsojitra,resource key change and user profile issue change,2020-05-12 05:34:47,75,48
+8a5f64ae8a04be806dd2eb11301a16ab05a6db21,codal-sid,"Merge pull request #254 from codal/move_reset_fix
+
+Move reset fix",2020-05-11 13:42:24,73,17
+5dfc42b425d4df4df2dd6547068070a2ad0968f5,codal-jsojitra,bug fix,2020-05-11 13:36:35,8,3
+80b9a775ad8dfb1150c804e8c7a68b5a3996e665,codal-jsojitra,bug fix,2020-05-11 13:31:12,65,14
+c02d0d89abc93de1be274b9c7713d0d6bcbf9288,codal-sid,"Merge pull request #252 from codal/RPT-129
+
+move project request issue and validate message.",2020-05-11 11:55:10,4,4
+429c7f4c0fb3e268d80fdc1e4a7a0bc1f76c5e20,codal-sid,RPT-129 #time 10m fix change allocation validation message,2020-05-11 11:54:46,1,1
+25d0e3d1da87c35edf274c7d8b683df9e054458d,codal-sid,RPT-129 #time 1h fix move project request issue and validate message.,2020-05-11 11:52:40,3,3
+38e52dcefd569e2dc4760e5a292b930ee38d14e4,codal-sid,"Merge pull request #250 from codal/new_move_resource
+
+hour calculation fixed",2020-05-11 11:44:56,309,110
+61635771381e34f34acab84740771ad851e17dde,codal-jsojitra,bug fix,2020-05-11 11:39:06,33,18
+14ec7fcaeabf63c3ad2d142148a4ed2b50667319,codal-jsojitra,bug fix,2020-05-11 11:33:12,272,87
+fba873c4020ca4a6091fc62f29697e54d3fbfc0b,codal-jsojitra,hour calculation fixed,2020-05-11 09:51:50,5,6
+f92c8e109cb8b60eb3966b4e7dace8c01e8ef746,codal-sid,"Merge pull request #248 from codal/new_move_resource
+
+New move resource",2020-05-11 09:12:45,17,13
+f47edd1f5ab3b00a763db4820d23b816659f9567,codal-jsojitra,quick fix,2020-05-11 09:08:12,12,14
+f8d222dd8ddc16f59e131298ed6c3573ac4e2e9a,codal-jsojitra,quick fix,2020-05-11 09:04:39,13,7
+3f76cd7d61e77185a7fe9d95ebf62a14681160f8,codal-sid,"Merge pull request #247 from codal/new_move_resource
+
+api changes",2020-05-11 08:34:07,125,53
+d1e3ff29e9ee7cb984a4d0a984e7cd623103ea36,codal-sid,"Merge pull request #245 from codal/RPT-129
+
+modify project listing and detail api and added resource filter on request page.",2020-05-11 08:31:08,35,22
+8ac0c5b6f970690929317774067427c6e46f5497,codal-jsojitra,api changes,2020-05-11 08:30:54,125,53
+fa79906b39577f8cac57b55d5b62f38d047283e8,codal-sid,RPT-129 #time 10m code format and remove print sentences.,2020-05-11 08:30:32,0,1
+b3edcae7328edb8f53da51642bec7a071c283a3e,codal-sid,RPT-129 #time 1h modify project listing and detail api and added resource filter on request page.,2020-05-11 08:29:03,36,22
+641e70f47505e3820c48b9eeb7be53a5ffe4ec2f,codal-sid,"Merge pull request #243 from codal/new_move_resource
+
+new_move_resource",2020-05-11 05:02:55,116,66
+fb11a1d65b8b7e3aeda72236815d0d1094b9d39b,codal-jsojitra,new_move_resource,2020-05-11 05:00:47,116,66
+ec61bf46faf0e695bb9a26c413f5623e9a4cd16d,codal-sid,"Merge pull request #241 from codal/RPT-129
+
+ fix hour duration issue",2020-05-10 16:18:13,9,14
+abe7e7099b8bb161f1b769f161ea2ceef7efa4ba,codal-sid,RPT-129 #time 1h fix hour duration issue,2020-05-10 16:17:31,9,14
+e9092790078a7e7472548534b1483f7f6d1fb600,codal-sid,"Merge pull request #240 from codal/RPT-129
+
+code optimization and update resource allocation logic",2020-05-10 15:06:58,705,507
+91e8d0781d69001ab5d314ae03ca390f953094bf,codal-sid,"Merge pull request #239 from codal/new_move_resource
+
+New move resource",2020-05-10 15:03:31,129,95
+dc113b413a2fce6a278990dcae10c0169347448b,codal-sid,"RPT-129 #time 10h configure move resource to another project and add allocation calculation for the same, fix count issue, remove unnecessary code and optimization.",2020-05-10 15:02:36,278,136
+6d0964d777bbcf198205880c064e4fb2409c4864,codal-jsojitra,add resource not allowd allcoation 0,2020-05-10 09:05:40,11,7
+582c8d73d70e7af68d5239f92d19de4b8f3cac5c,codal-jsojitra,new_move_resource,2020-05-10 08:18:42,1,1
+7ed10500fd34402f822bc2248a190eb3024f87ef,codal-jsojitra,new_move_resource,2020-05-10 07:00:34,12,7
+bb25bc95888ee7002fcaeebe240edfbc86475ecb,codal-sid,Merge branch 'new_move_resource' of https://github.com/codal/rp-tool-py into RPT-129,2020-05-10 06:46:09,10,5
+fc6a523e222b8ed6780d85e287ca234a6f508419,codal-jsojitra,new_move_resource,2020-05-10 06:44:04,1,2
+9495535c9deb72932adf1846a526bb8a6814d4a3,codal-jsojitra,new_move_resource,2020-05-10 06:43:30,1,1
+c62abf082ba0d05f73ce4e800fcda9775410e623,codal-jsojitra,new_move_resource,2020-05-10 06:39:36,13,7
+99381198f7ab5e2a02ff21d6a7712fe866354b98,codal-sid,"RPT-129 #time 25h modify resource allocation calculation, created api to generate main & child request based on project. created entry with 0% allocation when resource gets move from one-to-another project.modified existing api's and code formation(PEP8),",2020-05-09 15:01:21,449,393
+91d5ac32e46faba256485e7d3dcd95c5db579f65,codal-jsojitra,bug resolved,2020-05-09 12:00:48,1,1
+d39b233817f9e277e4f4a23c6bbaa0f2be9a2310,codal-jsojitra,comment condition,2020-05-09 11:59:25,1,1
+da5a084832052c2b5a126d87072313d860afe797,codal-jsojitra,bug resolved,2020-05-09 11:57:09,2,4
+ed95cb15ab52c4e6fc076b55fd4cf89c5c07d986,codal-jsojitra,Merge branch 'new_move_resource' of https://github.com/codal/rp-tool-py into new_move_resource,2020-05-09 11:56:01,82,34
+49ee6818d6bee702018d6cc66e3cb9719056a564,codal-jsojitra,bug resolved,2020-05-09 11:55:16,18,22
+51a9d3defd75e01c9f6f41633ef9b7fcf6d09e7e,codal-jsojitra,Merge branch 'dev-development' into new_move_resource,2020-05-09 11:12:16,82,34
+0488cfc45480d3241cc345ee719cd53c21f4c678,codal-jsojitra,new move resource logic,2020-05-09 11:02:34,107,99
+81922db3a9db3aed2122ec1bc8e869f79decdc55,codal-jsojitra,change move resource logic,2020-05-09 05:59:56,17,19
+b59babe3af8b49a84fc91b8273299680e63c5be8,codal-sid,"Merge pull request #235 from codal/quick-project-fix
+
+quick fix",2020-05-09 05:09:45,2,1
+15979fbd94dbf1da51a8af39a275a5f61d6e4c57,codal-sid,"Merge pull request #234 from codal/fe-bug-fix
+
+Fe bug fix",2020-05-09 05:09:17,42,31
+52381d2560853350e0a08f9891d37a54a5b675fe,codal-jsojitra,bug fix,2020-05-09 05:07:35,2,2
+c8ceda7754477cf541c8a1206e3f735222c28a0e,codal-jsojitra,quick fix,2020-05-09 05:03:31,2,1
+509285fc7ff93a1ec20728c84e91942581150527,codal-jsojitra,move changes,2020-05-09 04:54:15,17,14
+18bd0a2b7f650bf964f512c8e1728727a248abc4,codal-jsojitra,add logic,2020-05-08 16:27:18,34,19
+a14fb765496321589946c168e4e4bcc57d7328c5,codal-jsojitra,move resource logic change,2020-05-08 15:05:15,3,3
+14ba7929f3d773a910baf6d45577e24e4efc1465,codal-jsojitra,move resource logic change,2020-05-08 14:48:26,10,11
+861763b9743b91c23ecf31746e8ff9b01c7cab72,codal-jsojitra,move resource logic change,2020-05-08 14:46:51,15,12
+9d90f0d7bef9ee5d70851e04a77b587fa870d24c,codal-jsojitra,remove allocation bug fixed,2020-05-08 13:22:36,10,10
+5b01bb9fb484771214dbd5a06f02d470633cd8e2,codal-jsojitra,project listing image slice add,2020-05-08 12:38:13,5,5
+62cbbd015275628004d1bf8a53eb8d4ae91e4906,codal-jsojitra,project listing image slice add,2020-05-08 12:11:13,10,10
+0e2adfdee84ef4c7a934c9508802364f5467a85f,codal-jsojitra,css changes,2020-05-08 11:51:13,14,5
+eb563673f61f0ff4950bf07c07257bac855a23fd,codal-sid,"Merge pull request #232 from codal/fe-bug-fix
+
+Fe bug fix",2020-05-08 11:17:51,90,28
+8850d9aa52f376a3cbac45eaa1a361b947d033dc,codal-jsojitra,same allocation not display,2020-05-08 11:15:36,8,8
+f6d8f07bceb1d2f33c4a7ca1afaec6eb09271754,codal-jsojitra,view request issue resolved,2020-05-08 10:34:22,68,14
+17043d564e24b174773d4dca715d78e1cc1e704c,codal-sid,"Merge pull request #230 from codal/RPT-129
+
+update requirement.txt file",2020-05-08 09:38:45,1,1
+a8952ab695139005efe0d9491ac78f03cd72b830,codal-sid,update requirement.txt file,2020-05-08 09:38:15,1,1
+3eba59e25b3b14268a31060ccd15557b51ceb7e0,codal-sid,"Merge pull request #228 from codal/changes
+
+changes settings and requirement file",2020-05-08 09:27:58,3,0
+cbd6d885e2c126d4c8ff882e6bdf9eca1e058617,codal-sid,Merge branch 'dev-development' into changes,2020-05-08 09:26:32,29183,2558
+3dd854dfd00d0146ef5b31089537baac4f36e7d1,sshaikhcodal,changes settings and req file,2020-05-08 09:17:21,3,0
+ba394399f1c804f8833ec2f0bbbc7ac3805a8fa5,codal-jsojitra,view request open requst status solve,2020-05-08 07:08:47,23,15
+a26f27d07db1b0fd0cdfdac5185c33eafa8844c0,codal-sid,"Merge pull request #226 from codal/fe-bug-fix
+
+project list user image bug fix",2020-05-08 06:03:40,328,48
+53a171a3aa7da8291c847c4729a47221d425ad68,codal-jsojitra,project list user image bug fix,2020-05-08 06:00:37,328,48
+1fe897be2826c60e413c97d47182485294c9b2c5,codal-sid,"Merge pull request #224 from codal/fe-bug-fix
+
+bug fix",2020-05-07 12:05:58,168,98
+d2e098f1311d7d134bcc96f2e20c886009c40808,codal-jsojitra,bug fix,2020-05-07 12:03:42,168,98
+4d55e596420a06d9912d836b292cfb3c5ba71199,codal-devops,revision to check pipeline,2020-05-07 08:17:44,3,1
+3565cc906b3954b43fd2b757c2a7608f483841b8,codal-sid,"Merge pull request #222 from codal/project_listing_filters
+
+project listing by tags filter",2020-05-07 06:25:24,6,0
+d2c9c182b290cdf80cd4137d360ae31c8be85525,codal-devops,overwrite true,2020-05-06 22:54:21,1,1
+955239dd35787c6df1f75dea10a0218dfb51495f,codal-devops,removed jenkins,2020-05-06 22:50:39,0,1
+e820543854f26a9c5375f6d54ad74120b836fbac,codal-devops,final,2020-05-06 22:07:59,0,2
+8a12f550dc40816bd1a8d371d04d45611e2e9791,codal-devops,final,2020-05-06 22:07:26,1,1
+40c70bf00a5e9641a958b0b7e1836929222bd0ea,codal-devops,updated,2020-05-06 22:02:22,4,4
+240af59b8e6a057ed249bb66365bde39e18b073c,codal-devops,updated afterinstall,2020-05-06 22:00:28,2,0
+79bc18590a481a86135ab1ddc9a42840449a440c,codal-devops,updated appspec,2020-05-06 21:58:23,5,5
+a89c79fff13a7dcaeda3acd4fd18cb8180445981,codal-devops,updated appspec,2020-05-06 21:43:36,8,8
+c06d192264ddac3c159b9da2e3aec199f62a93bb,codal-devops,removed before install block,2020-05-06 21:32:08,0,4
+e55349bfe13881484fad1bee4f0cd5fd6969022d,codal-devops,taking pull directly from github,2020-05-06 21:31:04,10,7
+49fbccf240588313a990394ecaad9f8644e62094,codal-devops,removed mkdir command,2020-05-06 20:32:39,1,1
+58f47c7182cfd033fd415af961724c9122f6f185,codal-ayush,added beforeinstall file,2020-05-06 20:30:05,8,0
+3dec2dbce52eae308199a040f77adf535843d4c8,codal-devops,added cert and oath token to main directory,2020-05-06 20:23:46,3,0
+5f46461c6364449eff4a20545f8066cac5e3d0d1,codal-devops,updated appspec,2020-05-06 20:07:20,8,25
+913ccc4900f8bf579225c30747e6d24a51ba4f5d,codal-devops,updated spec file,2020-05-06 19:52:53,4,4
+7f5f5064f0be0a953f8c9fbc89f6dfb315b18bbc,codal-devops,added compose down,2020-05-06 19:50:02,2,0
+5ac09d928b6c3221a05e35fb9c6777f7c1775b48,codal-ayush,updated appspec files1,2020-05-06 19:30:15,3,3
+3d391462e29123bab9870045a0e963edb1e58385,codal-ayush,updated appspec files,2020-05-06 19:16:10,3,3
+404b21a37090843c1da0d4e24a405c633df02729,codal-sid,"Merge pull request #223 from codal/fe-bug-fix
+
+remove console log",2020-05-06 13:14:36,3,3
+f6cad1aa5783bd9cec01b9ba8c0df7e372bf82df,sshaikhcodal,project listing by tags filter,2020-05-06 11:57:31,6,0
+62c5ad68094602b5bc1585d851a9a87959af1ae6,codal-jsojitra,remove console log,2020-05-06 11:23:46,3,3
+46f2789550f9d0d332848f99b494ac877eadb297,codal-sid,"Merge pull request #221 from codal/fe-bug-fix
+
+Fe bug fix",2020-05-06 10:57:58,28,16
+01ca19095501640feba66ee0330272ad59882e2a,codal-jsojitra,RPT-128,2020-05-06 10:50:39,24,13
+12ed2550ed055e4d14b6077eee5f201dc673c011,codal-sid,"Merge pull request #220 from codal/project_listing_filters
+
+changes project listing filters",2020-05-06 10:08:00,8,6
+0422bab70969348518ca2407be3fb22a0df338e2,sshaikhcodal,changes project listing filters,2020-05-06 09:59:49,8,6
+858334ff72d2c93488a8733bbfe5bfa39d581c3e,codal-jsojitra,images optimization,2020-05-06 08:17:30,4,3
+f76dde97160cdd12a37a6901746a2bbb86027215,codal-sid,"Merge pull request #217 from codal/project_listing_filters
+
+project listing filters",2020-05-06 07:15:09,12,0
+b487caf5c17874da01bad8eec4863f7d36181656,codal-sid,"Merge pull request #219 from codal/fe-bug-fix
+
+Fe bug fix",2020-05-06 05:41:15,67,27
+32b2579d419c3bece914fe7e0e66b192acc7bc47,codal-jsojitra,RPT-128,2020-05-06 05:38:09,12,6
+c538aa80578bc567b941d7419738fb869fddb161,codal-sid,"Merge pull request #218 from codal/worklog
+
+modify worklog api and add ""NA"" if the employee is not allocated in project and still logging.",2020-05-06 04:31:07,14,13
+715121d006736a8786d269a17e124405854b0951,codal-sid,"RPT-121 #time 1h modify worklog api and add ""NA"" if the employee is not allocated in project and still logging.",2020-05-06 04:30:15,14,13
+eeb5cb2f59b9af871d1bdadd90767c6573bac76c,codal-devops,updated directory,2020-05-05 21:22:14,1,1
+9d73960c32c81487963e39f69aeaf6dfe5e1d531,codal-devops,updated directory,2020-05-05 21:21:25,1,1
+1c84cd4fb0c01c312215a106a94f2bf1c23ffb60,codal-devops,after install script,2020-05-05 20:39:07,1,1
+f404188c8dad7140be7ad21b046aee913fc7e02b,codal-devops,new folder added,2020-05-05 20:37:57,1,1
+4a5a135e732a66fa24e244f06b53819ed923eec7,codal-devops,made new afterinstall script,2020-05-05 17:42:28,17,0
+4791e5d8441089b42309efdc4bd3f7ed35dd73a6,codal-devops,updated appspec file for codedeploy,2020-05-05 17:36:49,13,5
+56fe82926b010406028397209ce6237ae12ddf18,codal-jsojitra,RPT-128,2020-05-05 14:16:04,1,1
+f7b22f63ddd99826d9bc97935476f829ac697b42,codal-jsojitra,RPT-128,2020-05-05 14:06:39,16,11
+a069a9bb7f5208fde995bb85fb4e4cc5f28da152,sshaikhcodal,project listing filters,2020-05-05 13:14:36,12,0
+8f467624539ccfc5472e99d4ebdea5468846f869,codal-jsojitra,bug fix,2020-05-05 12:32:01,4,5
+c05aeade206453baea42b98f51f906063921bf20,codal-jsojitra,redirection issue,2020-05-05 11:52:43,46,16
+e2d901e7aef178cd3c9c799b92519c2040a77c75,codal-sid,"Merge pull request #216 from codal/bug-fixing
+
+Bug fixing",2020-05-05 10:08:33,5,7
+95dd079508ea81c85ee3316f0037ed07fd86c3c3,codal-jsojitra,bug fixing,2020-05-05 09:41:02,2,3
+0eac37e38fad8378c44ffaf7411bfdd7b89678e0,codal-jsojitra,bug fixing,2020-05-05 09:38:41,3,3
+e7d9424d753c415c1cab95f73202cc44372a95e1,codal-jsojitra,edit allcoation issue,2020-05-05 08:47:22,2,3
+93a0d172b98bb9e837d283a708f9580b452b042a,codal-sid,"Merge pull request #215 from codal/bug-fixing
+
+Bug fixing",2020-05-05 07:42:13,56,24
+3beae0730bfa8a93488b3e49d132d4734d6ce0a8,codal-jsojitra,bug fixing,2020-05-05 07:38:22,10,10
+58e8950b4e1c50f2fcdfc1a5376d7e1cc29796c8,codal-jsojitra,bug-fixing,2020-05-05 07:18:16,24,15
+5a9fd46370bbdf50b36d8e43e6769e84bebc5940,codal-jsojitra,count api parameter change and dapikcer validation,2020-05-05 05:52:12,33,10
+5fc21a977efc0d6f15a26da1a4ff8658a1528d29,ppatelcodal,"Merge pull request #214 from codal/bugs_fixes
+
+Bugs fixes",2020-05-04 14:47:36,6,6
+79991139e7a089111484b2808a0abb8358c5e3ec,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into bugs_fixes,2020-05-04 14:08:01,88,90
+36376db244add6bf6363919711c9e30a6da0819e,codal-sid,"Merge pull request #212 from codal/RPT-121
+
+modify existing worklog api and configure new api toget worklogs.",2020-05-04 14:06:03,57,49
+bceb822bae7e0c8555643d6ef685df8e1e8d2db0,codal-sid,RPT-121 #time 1h added pagination in worklog api,2020-05-04 14:04:39,22,1
+6622a80b53533f972b46fcafdb49cb2962f93a3d,codal-sid,"Merge pull request #213 from codal/search-limit
+
+Search limit",2020-05-04 13:45:23,31,41
+59b73d393f6d9d15a40262939f62e8e0e9c3c9f4,codal-jsojitra,upcoming employee filter done,2020-05-04 13:41:36,9,3
+f403de7afa021ceb05b6119168a7930f8312c37b,codal-jsojitra,upcoming employee filter done,2020-05-04 13:32:51,1,1
+d3ff9ab8ed74d56cb2cc0301a9901398a6c911a7,codal-jsojitra,upcoming employee filter done,2020-05-04 13:32:29,2,26
+2a98273603d9fbac06cdcb9360afe763838811c4,pkiri-codal,counter in team resolved,2020-05-04 13:29:46,3,3
+d8b143e928b2c36b1ea4e4f9c745ff0505786803,codal-jsojitra,upcoming employee filter done,2020-05-04 13:27:05,27,19
+9656a57812f76daa454bdbc72ec8c465e0e2068c,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into bugs_fixes,2020-05-04 13:10:04,155,71
+f48cf00f763db88e3ef4e4e97af92d1ee8979bbb,codal-sid,RPT-121 #time 7h modify existing worklog api and configure new api to get worklogs.,2020-05-04 12:53:38,39,52
+616bddb5ff9d5184420a0892ffc8ecbcce9332f9,codal-sid,"Merge pull request #211 from codal/search-limit
+
+search limit with functionality",2020-05-04 12:50:12,155,71
+49cc680dd638a066986a9569c832bd4a075c9646,codal-jsojitra,search limit with functionality,2020-05-04 12:47:07,155,71
+0d2fb5c503453c4975d23a461823cd743070a959,pkiri-codal,Project Timewise filter on Employee Profile,2020-05-04 10:39:57,3,3
+3b8287d1b55bb85fc697f57e798ac510e658fa77,codal-sid,"Merge pull request #210 from codal/RPT-120
+
+Rpt 120",2020-05-04 10:20:43,74,70
+84280a3e666683ffcf5f25222fff00895927953f,codal-ayush,rds updates,2020-05-04 10:19:53,1,1
+d48638812765c5ec42c224fe0485b3223edc0b8a,codal-ayush,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into dev-development,2020-05-04 10:16:53,41,13
+3ab5ffe454f4b4ac8afd876eaacaeefc70a7faab,codal-ayush,rds connection changes,2020-05-04 10:15:11,81,81
+37966aa96792be958f6c11e2d60f6ebea2f0c9aa,codal-jsojitra,bug fixing,2020-05-04 10:12:46,13,18
+bfec332351c864c48b2e0decd12ecdf2b43ebec2,codal-jsojitra,add request message timeout,2020-05-04 09:47:53,6,3
+e3632385577cff3c6eff3621d3d19e16c7dc52b2,codal-jsojitra,bug fixing,2020-05-04 09:23:46,8,5
+bf9d9e68c545f2746e68e14e67411f952d476243,codal-jsojitra,RPT-120,2020-05-04 08:59:15,39,40
+ad12eeca905e3552be819628cd86433ed909adb4,codal-sid,"Merge pull request #209 from codal/bugs_fixes
+
+Bugs fixes",2020-05-04 08:43:16,2,2
+1d33cc23887f508f7c7bd3b2b318eb5df275db9c,pkiri-codal,multiple filters resolved,2020-05-04 08:18:08,1,1
+daa7c0319f4446c5167cefa781de19fe861d858b,pkiri-codal,tags for project removed,2020-05-04 07:09:38,1,1
+398b4cc65eff3fbd94b40880fc7e6b3c03e3b578,codal-jsojitra,code changes,2020-05-04 07:08:05,11,7
+f56fe875cab1b000b942d14ac4a88277c341411c,codal-sid,"Merge pull request #207 from codal/RPT-122
+
+Rpt 122",2020-05-04 06:25:20,2,1
+eb22225225fe620f20a04638ef27e98c9f1b5e49,codal-sid,"Merge pull request #208 from codal/RPT-117
+
+Rpt 117",2020-05-04 06:25:09,37,10
+f95601981b184af5ad617630384980f02a26e89f,codal-jsojitra,css cahges,2020-05-04 06:20:53,12,4
+0d3eec43d68d0287ab1051ecd2935ef6db93aa8f,codal-jsojitra,solve filter bug,2020-05-04 06:03:44,11,3
+7a68c423df49e4e799b916999bcfb7a119250bd5,codal-jsojitra,page size changer issue resolved,2020-05-04 05:42:27,17,6
+1ae5af6a9d1ca1f8e372c21fd8d518bda71e824e,codal-jsojitra,bug  resolved as per desc,2020-05-04 04:53:27,2,1
+379d3d88f49e1e043719e41cd6b5aef890452774,codal-ayush,rolling back rds changes due to django connection issue,2020-05-03 18:38:02,81,81
+e0785b9c2b4e78541bbf4a75b15b271e92b0cc71,ppatelcodal,"Merge pull request #206 from codal/bugs_fixes
+
+date filter in team-listing fixed",2020-05-01 13:48:37,5,3
+508dde23c2efd1277b82792ef71e9fb17e5cf63a,pkiri-codal,date filter resolved,2020-05-01 13:45:10,1,1
+3eaed10ae4d7a38540ab7f16eccc1b7b6634bbd8,codal-devops,removing test file,2020-05-01 13:44:30,0,94
+6f899faa7c1b84f9a9df8f146c8d5e2f792f0593,codal-ayush,database switched to RDS and removed redundant files,2020-05-01 13:42:36,170,79
+4c214d51623f504e987f75a4531518e6e3877c18,pkiri-codal,date filter resolved,2020-05-01 13:10:45,1,1
+a374ef7adf9530c4a3dab97ae11ce302d5865192,pkiri-codal,date filter resolved,2020-05-01 13:08:24,1,1
+3b79d4833e05cdfe337feca43c107ccf5becc511,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into tag_filtering,2020-05-01 13:07:18,106,12
+59a44ac405f46d878304921d3f27d2f2979287a8,pkiri-codal,filter issue solved,2020-05-01 13:02:57,4,3
+7eabe540698511f8175edde0c8fbe02baf58e44a,codal-devops,updated to remove syntax issue,2020-05-01 12:40:05,12,12
+4a3798ff252f332000a5edc4e90da059845f5b9e,codal-devops,test-docker-compose file,2020-05-01 12:38:51,94,0
+e4e0986ec65e86e11abbe99b0509060729bb83e6,pkiri-codal,team listing resolved,2020-05-01 12:29:52,3,2
+21a41327de61749f4e63b0b85deb53757ae08050,codal-sid,"Merge pull request #204 from codal/tag_filtering
+
+Tag filtering resolved",2020-05-01 11:22:52,1,1
+320e065ef6d28a9991ed58d5312484962bb5568b,pkiri-codal,tag filtering solved,2020-05-01 11:19:50,1,1
+ced77fd233deb33680a24fec1501b71f0fa4926f,pkiri-codal,filtering issue resolved,2020-05-01 11:18:10,2,2
+0752d597b61e017746c499c281677e92f85bf9ae,codal-devops,Updated dockerfile,2020-05-01 10:49:58,12,2
+e370e69d35f2b57dcf9ada30f8cc8cbbde7ec8a1,codal-sid,"Merge pull request #203 from codal/RPT-116
+
+modify worklog api to get any worklog hours even ifi ts not approved",2020-05-01 09:49:50,13,14
+a5a5e6797b40732f72f19cbc60fcce6963495858,codal-sid,RPT-116 #time 30m modify worklog api to get any worklog hours even if its not approved,2020-05-01 09:48:56,13,14
+e56265407318613623c9b2ff52fe2ac48b575ea0,codal-jsojitra,spell change,2020-05-01 06:47:00,1,1
+2f4c8eb66861885f8a72de1fc69af0d89f5dd711,codal-sid,"Merge pull request #202 from codal/new_project_ui
+
+change project filter for tag",2020-05-01 05:45:35,10,12
+072c1ec4dadc1c3cf288cf0323c193f0c580b996,codal-jsojitra,change project filter for tag,2020-05-01 05:43:06,10,12
+6a55c226b8ea7abc9f76c409b76f74bfe1df9431,codal-sid,"Merge pull request #201 from codal/new_project_ui
+
+date format in upcoming employee",2020-05-01 05:27:24,1,0
+18bcb93fcd6db8e932e702254a09ccbaf96edb23,codal-jsojitra,date format in upcoming employee,2020-05-01 05:24:43,1,0
+2663e08bf21482ea85a31df8544016c3afb4d5a6,codal-sid,"Merge pull request #200 from codal/new_project_ui
+
+New project ui",2020-05-01 05:07:52,23,16
+9f41af4eaf815d676140f7006db1c0cc8f5bf388,codal-jsojitra,change format in user profile,2020-05-01 05:02:23,20,13
+d190573ffed68cd7ec1fd07094dfd470de195a9a,codal-jsojitra,date format changed in project details pages,2020-05-01 04:50:18,3,3
+4b6eab900eba80e760907697bf0861f674968ce7,codal-sid,"Merge pull request #199 from codal/new_project_ui
+
+jira log issue fix",2020-04-30 14:36:45,6,2
+bcf2d3d9b236ceac5457646fffc2799961e90af8,codal-jsojitra,jira log issue fix,2020-04-30 14:31:02,6,2
+ffdb4cd884efa85eb1d68a16a937a6b601048188,codal-sid,"Merge pull request #198 from codal/RPT-116
+
+optimize jira api call and added sorting by logged hours",2020-04-29 04:59:40,156,47
+f79035582a933523c204176daa10686acc31eaf2,codal-sid,RPT-116 #time 10m added jira key in project detail api,2020-04-29 04:59:02,4,4
+0954faf0974051ab99fc141e4eb27a7c40a004f1,codal-sid,RPT-116 #time 4h optimize jira api call and added sorting by logged hours. created new model to store employee's jira account ids by jira account and fetch worklog for the same. modify gsuit function to update user information if exists. modify add jira account api to validate jira tokens. modify all cronjobs to fetch ids and access token by jira accounts.,2020-04-28 07:48:11,152,43
+50d6016c8703208cfec7d448eeef48d7cb253eaf,codal-sid,"Merge pull request #197 from codal/new_project_ui
+
+New project ui",2020-04-28 05:02:02,4,9
+1d135c5567e88e53ee4fa69afd627add1144620a,codal-jsojitra,popup changes,2020-04-27 12:20:32,2,2
+091b4d4d3407931c1ed59548e9f3819fec59a36e,codal-jsojitra,change add account step 2,2020-04-27 11:34:57,4,9
+ab842eaceb83c5485b7cbfa494fd4216bf9de1d9,codal-sid,"Merge pull request #196 from codal/new_project_ui
+
+New project ui",2020-04-27 09:26:48,101,25
+41554e259fa7f564a9e378e9e602aa5ac565bdf8,codal-jsojitra,ad host on copy link,2020-04-27 09:05:12,1,1
+498a1ebcf67e0ff377ace2f57c4b27a5f9396960,codal-jsojitra,add copy url link on add project popup,2020-04-27 08:44:44,32,10
+4265b656a715dc5134179ac0c88bad75fe2cdc20,codal-jsojitra,solve request listing filter issue,2020-04-27 08:18:36,6,1
+ddaaff92b3a830727dd0c1d5ea43536474b69c33,codal-jsojitra,solve employee listing filter issue,2020-04-27 08:16:00,29,7
+3c5b888876c1aaca728cd678723132629b7e96ca,codal-sid,"Merge pull request #195 from codal/RPT-116
+
+update requirement.txt file",2020-04-27 06:56:49,3,0
+e0efda527b08e8fc674c992f06566e86d259e53a,codal-sid,update requirement.txt file,2020-04-27 06:56:15,3,0
+6d40dd01892b9c5f4c2e4aaaca8531010662cdcc,codal-jsojitra,condition issue resolved,2020-04-27 05:58:12,29,12
+09b4901892a311bb395a5c4fb2919d873cdb00d2,codal-jsojitra,add time log condition on error time,2020-04-24 05:06:43,15,5
+d3a5e3c6ca2e2a4a7e65fe8ff569f03714117754,codal-sid,"Merge pull request #194 from codal/new_project_ui
+
+New project ui",2020-04-24 04:54:43,31,13
+a5c41fba58cf561763b247ba8a94980f12332b12,codal-jsojitra,add client id for stgae server,2020-04-23 13:00:28,1,1
+17f389e09cc2466fba45bd1625fa8e1d6910460f,codal-jsojitra,search project,2020-04-23 11:03:25,9,6
+da8ea09e4811a050711cbe28729632674739260e,codal-jsojitra,add conition base data,2020-04-23 08:26:44,21,6
+beacc7a086972480137a5d8e4e167caa7646e5f7,codal-sid,"Merge pull request #192 from codal/new_project_ui
+
+New project ui",2020-04-23 07:23:36,584,277
+0f123496add240d030f211b86e907bc55c31909d,codal-jsojitra,change add and edit project logic,2020-04-23 07:15:26,208,100
+d563b7af5b52451960b6b57db5690a35198b19e5,codal-sid,"Merge pull request #191 from codal/RPT-116
+
+ fix tag exception issue",2020-04-22 14:16:12,6,3
+4864243588f00cb7f6940d933333302c2d6f83e4,codal-sid,RPT-116 #time 30m fix tag exception issue,2020-04-22 14:14:55,6,3
+e4590b629bab941c05a9d0d81d6354627ee638a0,codal-sid,"Merge pull request #190 from codal/RPT-116
+
+add custom searching in jira project list",2020-04-22 13:43:40,7,0
+1f238a2ef7a064d7b4ae573273931c2685cf02eb,codal-sid,RPT-116 #time 30m add custom searching in jira project list,2020-04-22 13:41:05,7,0
+7ecffbca262b3df1bc540f2050ec26372eeb1970,codal-jsojitra,add project functionality change,2020-04-22 13:41:02,394,201
+f34fb00030aee13abdc403d82e788f08b2f5d207,codal-sid,"Merge pull request #189 from codal/RPT-116
+
+create an api to add multiple jira&tempo accounts. created api to fetch all project from specific account.",2020-04-22 11:33:52,169,10
+b079e97b152b5a834f3837a1c69c20cd58c889fa,codal-sid,RPT-116 #time 6h create an api to add multiple jira&tempo accounts. created api to fetch all project from specific account.,2020-04-22 11:29:45,169,10
+8c503829a9fde1ec73136855211f813477a0491b,codal-jsojitra,disble chart,2020-04-22 08:20:16,11,5
+8568273dea4198a47423a77f14903b4fa777834e,codal-sid,"Merge pull request #188 from codal/new_project_ui
+
+New project ui",2020-04-22 07:02:28,339,96
+583a1586c3f68ffc040d34612d10bcae91261cc8,codal-jsojitra,org chart changes,2020-04-22 06:59:40,4,4
+79be0f6ff53c5cecf36d1c642d3eed5dc669d0c9,codal-jsojitra,org chart changes,2020-04-22 06:21:14,70,33
+47648e54aea12aabb5646001e5fe9817641528ea,codal-sid,"Merge pull request #187 from codal/RPT-115
+
+integrate g-suite and get all employee list",2020-04-21 12:19:06,81,0
+247fff6b38ee42bd7972edb837a15049bffefc9a,codal-sid,RPT-115 #time 6h add integrate g-suite and get all employee list,2020-04-21 12:17:00,81,0
+750b358b237d2f203c7485b8aa44e571ebd4f6d6,codal-jsojitra,merge 2 branch,2020-04-21 11:47:21,9,9
+68ed6050064e4e86d438529e5fc17988e85bd118,codal-jsojitra,RPT-111,2020-04-21 06:16:38,37,52
+b0f8afec72479457da96f8da66da5a91cf54b337,codal-jsojitra,RPT-111,2020-04-21 06:15:20,42,57
+68381c80bbd3fc75a7deaba4067652b5ce7657cd,codal-jsojitra,branch changes,2020-04-21 05:00:05,15,192
+948800ecd18cc7d5dedd0e723b6ba7e07fd9e0c4,codal-jsojitra,create new branch,2020-04-20 13:09:52,1,0
+eae15525365be880de8704a4887a9061e8740aac,codal-jsojitra,change add project ui as per jira tickets,2020-04-20 13:08:42,20,17
+8c7fc2c591d9788184169cfe6cd8a31ca4d079be,codal-jsojitra,change add project ui as per jira tickets,2020-04-20 12:53:52,232,15
+ed41c2e9272d31901535e5b3227cf07bb461e0a4,codal-sid,"Merge pull request #186 from codal/tag_filtering
+
+Tags filtering",2020-04-20 11:50:43,1,1
+80d346e4e3b0c56e79af0471e53a49db4c2bba77,pkiri-codal,tags filtering,2020-04-20 11:12:29,1,1
+a5237ed06ff4fc92af46b8e2c2ee033d2b4d0b08,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into tag_filtering,2020-04-20 10:04:09,560,148
+962fb586654ef6a2bf006266c5a50978167128f4,codal-sid,"Merge pull request #184 from codal/project
+
+Project",2020-04-20 09:22:58,560,148
+bf635087ab50d0578c53b2713056031e7d27e259,codal-jsojitra,change as per jira ticket,2020-04-20 09:15:07,111,43
+e92d7cd7d1d7d9fb29b94a65a292543eb3de2c90,codal-jsojitra,add ui in project filter,2020-04-20 06:10:44,139,10
+a8b195eadc7597f6d91ad0be9aaceab5150b3837,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-20 05:30:09,6,38
+d3c7e7a7320556bba22c9baf1c0e62cc2df5e8f3,codal-jsojitra,"RPT-108,107",2020-04-20 05:16:32,13,13
+358437ad913fe3270ee5528d2cb4fb5fd7bc5a92,codal-jsojitra,"RPT-108,107",2020-04-17 14:08:56,122,58
+2b94e80d04f959516b960df803087929be52e606,ppatelcodal,"Merge pull request #185 from codal/devops
+
+dbbackups block change and cleanup",2020-04-17 12:46:52,6,38
+c43de2a01507203e8267b751d3473fef57b1be9f,codal-ayush,dbbackups block change and cleanup,2020-04-17 12:41:58,6,38
+ab7cb239f52b1790c0adeca4b7546f4cdc706234,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-17 11:41:09,1575,238
+b6e5b42170d5210f7fa2444abcbe9f9fb2c96311,codal-jsojitra,add who they report to in user profile,2020-04-17 08:31:25,73,7
+00ed91b60c661bc31fbe34c14136c6f4a467d4c1,codal-sid,"Merge pull request #183 from codal/organization_chart
+
+created an api to add ""who employee reports to"" in employee api",2020-04-17 07:18:36,51,23
+b71a469121d255354f3a5225492c0d7e88d5ec30,codal-sid,"RPT-106 #time 2h created an api to add ""who employee reports to"" in employee api and added filtering for the same and added filter so get employee who does not report to anyone.",2020-04-17 07:17:18,51,23
+6ca0ca8b4ec039a7c07adbc8ff1cad049bdeca73,codal-jsojitra,css cahgnes adn org chart changes,2020-04-17 06:27:04,86,6
+dacfa7383d90561bf775002a9f30ff76a5161377,codal-jsojitra,changer reducer and page condition,2020-04-17 05:47:54,40,35
+1997dcc7ff23bda0587c3de647de06b8af5613dd,codal-sid,"Merge pull request #182 from codal/project
+
+intigrate jira log api",2020-04-16 13:45:41,203,78
+adacfe94216d5dee7897bdf8c65c7412ce9ac7fc,codal-jsojitra,intigrate jira log api,2020-04-16 13:43:14,203,78
+a34f04d039ded839cbac363e380ee964e08e49de,codal-sid,"Merge pull request #181 from codal/jira
+
+modified docker settings",2020-04-16 12:55:34,4,4
+6887cf6a4c66a847d99f6c4369af4b46b8db3e00,codal-sid,modified docker settings,2020-04-16 12:54:44,4,4
+814849540888d205cbbed98af2e942ed3c41b211,codal-sid,"Merge pull request #180 from codal/jira
+
+fix zero division exception",2020-04-16 11:30:02,6,1
+dafe16a09cac6e8656e93bcddbd9c9147c700a74,codal-sid,fix zero division exception,2020-04-16 11:29:30,6,1
+609a131fd903ca58273e85dddac6c36bab6e76a6,codal-sid,"Merge pull request #179 from codal/project
+
+Project",2020-04-16 10:24:18,218,87
+6c428afbddc0a976eb8773a44967d4cbe2db69ee,codal-jsojitra,jira auth condition,2020-04-16 10:23:00,19,8
+b090ce513c5c80dfe96c09498da5b485c8cb6363,codal-jsojitra,add projct key for add project,2020-04-16 10:13:58,11,2
+97170dabc4f065cd55b8cc3eebe1692a5d48b955,codal-sid,"Merge pull request #178 from codal/jira
+
+added flag to identify jira integration is exists or not",2020-04-16 10:06:25,10,3
+03812224da120d9bb7d837c5aeaef93ce6776d75,codal-sid,modified jira configuration api,2020-04-16 10:05:31,1,1
+41c0dc41b3e7f39c1faa2a32e4cc47b358495b4e,codal-sid,added flag to identify jira integration is exists or not,2020-04-16 10:03:27,10,3
+908cfa8cd4df955dc1a3751bd6dcce1d8e290ae5,codal-jsojitra,add jira auth button,2020-04-16 10:02:17,194,83
+2cab39e5f50e0c4370b52afcaf6bb9b877afea45,codal-sid,"Merge pull request #177 from codal/jira
+
+fix jira api redirection url api",2020-04-16 08:57:33,26,24
+dd9c2f542769d85e45b839c5f996a3e167163342,codal-sid,modified jira worklog api and update cronjob,2020-04-16 08:55:49,26,24
+bd43c8afcc3c6a2e80178dd39e95cfd2dd4d02f4,codal-sid,fix jira api redirection url api,2020-04-16 07:57:55,1,1
+572b6040cc70ead500ee2cc1f627c4a9cfacd664,codal-sid,"Merge pull request #176 from codal/jira
+
+added reported person field in employee model",2020-04-16 07:49:53,21,0
+8e638022d9977b6a597345ba4827d27f691e5629,codal-sid,added reported person field in employee model,2020-04-16 07:49:03,21,0
+07640d4245a645345ba2aa615ad8d506565264cf,codal-sid,"Merge pull request #175 from codal/jira
+
+added project key to get worklog from tempo",2020-04-16 07:18:38,2,2
+31f77406735b090f5ed43bf79ce9b7899e7bdb0f,codal-sid,added project key to get worklog from tempo,2020-04-16 07:17:50,2,2
+ae137f9e931846838dcfb81481700f7fa219ec0e,codal-sid,"Merge pull request #166 from codal/jira
+
+jira and tempo impementation",2020-04-16 06:50:36,367,22
+10944ea62b5e7fabd9b6eb0800256d1aa3331308,codal-sid,"RPT-104 #time 1h added total logs,allocation, allocated hours calculation from tempo api",2020-04-16 06:48:29,26,4
+68042cb35c491e43454ca613dbc9980f6efce813,codal-sid,RPT-104 #time 1h added permission for public API and modify credentials getting query.,2020-04-15 14:14:54,27,20
+32d26ab0d85dd46dfcd0941719f6e9e2a9387655,codal-sid,"Merge pull request #173 from codal/project
+
+Project",2020-04-15 13:43:03,770,103
+8dd08f5b783d69f264312c521f41d1933ccf3aee,codal-sid,Merge branch 'dev-development' into jira,2020-04-15 12:33:29,2549,1017
+82e2aaa4ea0347d0b2db17edac572456df9d861d,codal-sid,RPT-104 #time 16h configure tempo rest api to fetch worklog of employee of that project,2020-04-15 12:26:56,236,13
+34b33076de9f52768befd52326de3bf0a9b6e7a9,codal-jsojitra,add orgnation page,2020-04-15 11:51:14,714,100
+2248336cc625baf2b6f13e41d77575524ce59107,codal-sid,"Merge pull request #174 from codal/fetch_tags
+
+post save project signal created",2020-04-15 11:30:02,7,1
+e138e9fddec644405078afbf37aa99a0821e5bd6,sshaikhcodal,post save project signal created,2020-04-15 11:24:29,7,1
+cc92ef678eb5aa1c8ab460cff2592a6be76b1674,codal-jsojitra,role base service bug resolved,2020-04-15 04:53:20,14,5
+34df7755887ff615e598d3b8e01153033fd94818,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-14 13:37:25,931,233
+61ae6489cde40921ef5f500f931e80e378b80144,codal-sid,"Merge pull request #172 from codal/fetch_tags
+
+changes views file",2020-04-14 13:10:15,2,1
+849de9e9ade5520f552e1c0ca5cae1939305957b,sshaikhcodal,changes views file,2020-04-14 13:07:28,2,1
+bede745e7bc9fd4673231cb8ed8135381012f943,codal-jsojitra,responsive changes,2020-04-14 12:48:16,48,4
+281757b31a867332dfab3bc2e7b0e39f008c9a15,codal-sid,"Merge pull request #171 from codal/project
+
+Project",2020-04-14 11:33:04,929,232
+871189b633ca6c4648afa91b81b090e66dc04ffb,codal-jsojitra,time off condition,2020-04-14 10:53:58,14,15
+8d6c891e47c50f6714b627ab2c6383e351697c8a,codal-jsojitra,css changes,2020-04-14 09:53:30,1,1
+eeb803d2b49037812c4b09c4827b0e3d68348e19,codal-jsojitra,css changes,2020-04-14 09:52:47,47,17
+7f5f223fdd42c459e5d4866abcb0434d34b95d96,codal-jsojitra,css changes,2020-04-14 09:49:26,129,7
+8f1ad3e6adc97874c2203f606d1f5d797bf901de,codal-jsojitra, add project and user profile responsive css,2020-04-14 09:21:07,377,29
+c6b284096900387160a72ecbaaeeb4f837e07d5d,codal-jsojitra,add responsive css for login screen,2020-04-14 05:45:55,251,51
+937975d28ab94a619144fa624dbe45cf1af75a52,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-13 10:10:21,1,1
+80d0a3cbd5891a84e751b3a64a3893a44ae6c512,codal-sid,"Merge pull request #170 from codal/fetch_tags
+
+changes in urls file",2020-04-13 10:02:36,1,1
+eeabfa7b428b90c4945c27ea53386249696c33b8,sshaikhcodal,changes in urls file,2020-04-13 09:58:05,1,1
+fa762f0899d4fc7d47e16be5968b3c715ee20714,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-13 09:40:52,572,212
+e52889fd73580023ee0fda01d9f1605f642b35a3,codal-jsojitra,add responsive navbar,2020-04-13 08:46:46,126,135
+376844d11626dc4cdb90272a2b487541ef1c337c,codal-sid,"Merge pull request #169 from codal/fetch_tags
+
+Fetch tags",2020-04-13 07:21:48,25,3
+8ad7ed66cec1c7ff5256d98b75cf3403c44e3199,sshaikhcodal,changed in serializer file,2020-04-13 07:13:13,1,1
+585460631390bf64642fcd67c9bc9e8f73b6bfba,sshaikhcodal,changes in permission file,2020-04-13 06:58:24,4,6
+f79e4e172db5f182515f2e2d47509e8c49a4415b,sshaikhcodal,Tags get listing api,2020-04-13 06:36:32,27,3
+4cd0eeb5fd27f3712d4b4a5b7e3ca21b517d36f9,codal-jsojitra,project details page change resource request api,2020-04-13 05:40:20,20,13
+449a303ab78f8744bc7eabd53b781f4e4588a6c3,codal-sid,"Merge pull request #167 from codal/project
+
+add responsive css for resource request",2020-04-13 05:17:03,443,151
+ca516ae291dc00964b3e761fdaeeaba690382e59,codal-jsojitra,add responsive css,2020-04-13 05:14:14,252,94
+6535281d7a70ff0271513fec00bd527fe2c254c0,codal-jsojitra,add responsive css for resource request,2020-04-10 12:46:07,192,58
+3d4293c8b0007d5acc3feb7ac1c48d9a6371aa7e,codal-sid,"Merge pull request #165 from codal/project
+
+Project",2020-04-10 10:21:22,105,59
+f040d6a6ffa09ab35ebf4a89e0eb2758f088aa9b,codal-sid,added migration files,2020-04-10 10:20:58,45,0
+e9a91c2682b93966b0c5aaa9a151ce70de24c3a5,codal-sid,"# time 1h 30m add crone job to fetch account id from jira using email address, and schedule it at mid night.",2020-04-10 10:19:44,47,3
+295dcf2b79503358555789c45ed028287d18fc41,codal-jsojitra,css cahges,2020-04-10 10:17:41,10,6
+3ebf0e009d862c876842d1c786349a1a25fc9143,codal-jsojitra,add pagination,2020-04-10 10:14:40,84,25
+4201580f0ad8948990fc20c8a75c72a92e288ca1,codal-jsojitra,add count  condtion added,2020-04-10 06:12:42,8,28
+1a1c702433268a27eda230e043cd04579b9297a7,codal-jsojitra,css changes and bug resolved,2020-04-10 06:01:14,10,7
+9f613ba52936eb70e3e5d9cc842271c1ab8417be,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-09 14:51:00,863,492
+e2ef749b342d96ff7f05ff4397f370d83abae3c4,codal-sid,"Merge pull request #164 from codal/project
+
+Project",2020-04-09 11:39:02,500,393
+c5dc0365f544e5c77696d2a2d8980cb735d8d1f8,codal-jsojitra,role url redirection bug resolved,2020-04-09 11:36:14,61,50
+3ae05c25ad67199343eaad11c48f94aebd64d37a,codal-jsojitra,change logout code,2020-04-09 10:36:08,4,2
+de65218ad740fc0ad77fa3af7bbf52897dee8d5a,codal-jsojitra,add role base url permission using role service,2020-04-09 10:28:49,107,86
+1768a68c4b33e85c949175af8f4f1e6df5b8d967,codal-jsojitra,change redirection condition for change allocation,2020-04-09 07:58:19,33,8
+e939f9db652b485c3450403e1d71be4468d24447,codal-jsojitra,normla user only see there project,2020-04-09 07:52:36,11,7
+0d6f3a3ea2b6fad08cbf0910b8f18c013b52928d,codal-jsojitra,normla user only see there project,2020-04-09 07:42:51,28,18
+b51141f36568c9df540b8a20537ad3ef2f13ab0a,codal-jsojitra,add role service for give the  access of pages  based  on user role,2020-04-09 07:32:43,294,260
+f943de4576b65e79bea6311ee219f78a03eecf44,codal-sid,"Merge pull request #163 from codal/project
+
+Project",2020-04-09 05:20:31,384,120
+82f38411ca05d783bacdcd1a2c3858f232c4f31e,codal-jsojitra,add 404 page and configure with route,2020-04-09 04:20:26,197,2
+3b2a129258ee89a09078e1355699041149d7033a,codal-jsojitra,add loader,2020-04-08 12:50:17,42,50
+c41d787b8db0a2e08f824b554381b5cc93bb3878,codal-jsojitra,bug resolved,2020-04-08 12:34:26,86,55
+0a86766084973300735bf16fc400e18748f16a86,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-08 10:59:00,338,176
+b6ff3a18d423e311f753f991426b06b9c6be9f77,codal-jsojitra,css changes,2020-04-08 09:06:20,52,9
+5e7d30cc9ad365bbaa970d391db0866e1ed6234e,codal-jsojitra,remove prev date validation and get employe after slected one emp,2020-04-08 07:34:51,14,11
+890a48213dd3d3b77bf85dfb7cbf491997b5588f,codal-sid,"Merge pull request #162 from codal/project
+
+bug resolve",2020-04-07 13:34:35,55,40
+6d54ee81d49defa10bf8fe5fcb8812f5acbc2888,codal-jsojitra,bug resolve,2020-04-07 13:33:05,55,40
+a2e78ed5e4114283ae49f15ab983a9c011036578,codal-sid,"Merge pull request #160 from codal/project
+
+Project",2020-04-07 11:15:09,211,133
+c9c228004552a9ac4688b9c4c03b901d141ca0fb,codal-jsojitra,add validation request,2020-04-07 10:26:27,2,0
+031bb7782c581c83f88131ff2e51acc3f90c86f5,codal-jsojitra,change loader condition,2020-04-07 10:18:51,22,10
+00ba61a94014f1475ef30875003320eab52086a1,codal-sid,"Merge pull request #161 from codal/allocation_change
+
+ modified allocation logic and update API",2020-04-07 08:01:58,78,9
+2913de1e142885c41b0c02fc4093d27208bdb629,codal-sid,# time 1h fix modified allocation logic and update API,2020-04-07 08:00:23,78,9
+e903e99a7518ed0ca18aea9fd1056a42348e7607,codal-jsojitra,add loader when employee render on move resource box,2020-04-07 07:13:24,28,11
+331a1d6142de77cd03ecf19693f7963dc27679c6,codal-jsojitra,remove move resource data when change resource type,2020-04-07 06:55:29,27,9
+6c9f02aa4ae7c76937a163c7da8878fe6a0df5a9,codal-jsojitra,css cahges and add end date in move history and add Hours heder title with end data,2020-04-06 13:34:46,36,26
+789ad6559ff736bb7019761b14bfe3eee926fb9d,codal-jsojitra,css changes and add start and end date in move resource card,2020-04-06 12:27:04,115,96
+ee6834b461cb44ed9005958ad1e7957822bb5550,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-04-06 10:45:48,1495,1206
+ba48ea4f0acf6c04de4faa05f8004d45cc1ccaa5,codal-sid,"Merge pull request #159 from codal/project
+
+Project",2020-04-06 10:14:28,194,114
+2f40d13db4a35b0a345301b39b8c284b5212c2a8,codal-jsojitra,change key on project chart dat api,2020-04-06 10:12:29,6,8
+20f7c8663647132599214ac6b33b68c1222e7fd4,codal-jsojitra,date history postion change,2020-04-06 09:21:24,44,28
+ed8ef1d9a2e11102689f6ad896f274eb021a5452,codal-sid,"Merge pull request #158 from codal/docker-changes
+
+modified docker and nginx settings",2020-04-06 07:42:18,96,132
+2719c19ac62482d015c4acc64e5cebef4c571392,codal-sid,modified docker an dnginx settings,2020-04-06 07:40:52,96,132
+b577289ea7f6f21c647c49771637f34ec80806b6,codal-jsojitra,change request list filter parameter,2020-04-06 07:31:34,39,36
+44037db27b721aee9424bda7f6e75b138b91899f,codal-sid,"Merge pull request #157 from codal/filter-bug
+
+ fix issue of filtering by on resource request list",2020-04-06 07:07:36,2,2
+efe06313428fd336f53074bee2e5c4a05da7d66d,codal-sid,# time 15m fix issue of filtering by on resource request list,2020-04-06 07:01:23,2,2
+574d3767f31b50d09da0678069f5256d2abe59b0,codal-jsojitra,FE test and bug resolve and code optimization,2020-04-06 06:06:23,118,55
+000062da583d0a0b35346fcaab123b7d16aed39d,codal-sid,"Merge pull request #156 from codal/resource-request
+
+fix max calculation issue",2020-04-03 13:54:22,1,1
+cfc4c27088204d9a818e5cc69cc509b476877783,codal-sid,revert config file change,2020-04-03 13:53:55,1,2
+0ea9501eff83bc7e6a3e73520709049fc7473292,codal-sid,revert config file change,2020-04-03 13:52:09,1,0
+6621b0b92d866b41ad4179c5ad7797e9ffd4198b,codal-sid,revert config file changes,2020-04-03 13:43:19,1,1
+6acea098d305c585be396e646a4e3a0a20ed7084,codal-sid,fix max calculation issue,2020-04-03 13:36:03,3,3
+790bb34386ee4c9d5fbd4985ffe673059f4ba75a,codal-sid,"Merge pull request #155 from codal/project
+
+remove csv code and add excels code",2020-04-03 11:31:17,91,62
+fe23c94de3bcd552f969b57ce16f77f78d8dc2ed,codal-jsojitra,remove csv code and add excels code,2020-04-03 09:56:28,91,62
+adfdf4c6b49088988499bdcadca4c83b85840626,codal-sid,"Merge pull request #154 from codal/project
+
+Project",2020-04-03 08:06:59,313,13
+47313efc4b9313305d0f6e53c0114b6a39164a13,codal-jsojitra,remove extra file,2020-04-03 06:59:34,0,12
+d5c9d6bdcbbb555802d9f4e46b72a87b9d283b4f,codal-jsojitra,change  request type in count api,2020-04-03 06:58:14,0,30
+44bf1a291265d488a3613602f2a55511948cd770,codal-jsojitra,change  request type in count api,2020-04-03 06:55:19,1,1
+1a379f4787f37a2066789058733d016bde48a897,codal-jsojitra,add export pdf module,2020-04-03 06:51:52,354,12
+239157ade0a37731c26e7ee6c1bd18be5754cccd,codal-sid,"Merge pull request #153 from codal/project
+
+Project",2020-04-02 12:24:16,116,63
+a55687a2bb7ad26e3cf475850758d022a080d1da,codal-jsojitra,export excel functionality added,2020-04-02 12:20:51,3,3
+f99a9e425f0fe0f7336342b8957ca737d64cfc28,codal-jsojitra,export excel functionality added,2020-04-02 12:12:17,95,11
+d4910858eb8f43d2c6bdf17322bc9ca3a1236a93,codal-jsojitra,add move project comment,2020-04-02 10:02:54,47,37
+508982173d5fed1b33177b2e1e862dd4253c80e5,codal-jsojitra,remove unwanted console log,2020-04-02 08:44:29,10,51
+10ea6bd69bd48c9421558be575f218bd33107857,codal-sid,"Merge pull request #152 from codal/project
+
+code optimization",2020-04-02 08:39:58,105,42
+c02b6370e422ae96b592aeac12923437a084a9db,codal-jsojitra,code optimization,2020-04-02 08:35:25,105,42
+65db7aa16ce22152effbb6406b588b22fe500cbd,codal-sid,"Merge pull request #150 from codal/project
+
+code optimization",2020-04-01 13:44:58,36,134
+01189f7fc4dbcb14b81251cdd83d43d1b0f51e3e,codal-sid,"Merge pull request #151 from codal/resource-request
+
+modified request approved api validation for change project request and fix issue of duplicate entry of resource.",2020-04-01 13:30:53,20,14
+dd22dddc4173fd8ba3edf6f7075a886a0786ecf3,codal-sid,RPT-100 #time 3h modified request approved api validation for change project request and fix issue of duplicate entry of resource.,2020-04-01 13:12:51,20,14
+25ba01c5839ddd480be83cf49c5f76d201b1c565,codal-jsojitra,remove server check test code,2020-04-01 11:51:02,1,1
+f4364cb7ef23fe3b812ddb30f30e8facbadcad1c,codal-jsojitra,code optimization,2020-04-01 11:45:23,35,133
+30d3c5d6b578d18e78839d023ebcf5033c049f7b,codal-sid,"Merge pull request #149 from codal/resource-request
+
+added filter for employee and project in request count API",2020-04-01 11:30:33,6,0
+1962a2e80d42e16648d6ec1c46acace15230f033,codal-sid,RPT-99 #time 30m added filter for employee and project in request count API,2020-04-01 11:29:50,6,0
+e8988957d91e917c166e27854c2c25d2dad2e24d,codal-sid,"Merge pull request #148 from codal/resource-request
+
+added filter for employee and project in request count API.",2020-04-01 09:44:16,10,3
+e6e5b53fa08a64a6c76a2d32299c84fa9061b19d,codal-sid,RPT-99 #time 30m added filter for employee and project in request count API.,2020-04-01 09:43:34,10,3
+14708aa8efc0adcbb03c1ed30ef05b95fe84a7dd,codal-sid,"Merge pull request #147 from codal/project
+
+Project",2020-04-01 09:33:18,301,554
+a3322ba5bb936a7ce728dea777a83dceb945f67b,codal-jsojitra,test change for server check,2020-04-01 09:27:35,197,477
+96921b3e693b179b108420c7d9f19ba06f59e09a,codal-jsojitra,add parameter for employee listing api,2020-04-01 06:52:20,41,38
+c590f1a2c43a286f2ccdbef0895e4a17f443b557,codal-sid,"Merge pull request #145 from codal/RPT-99
+
+added entry of upcoming employee in employee model, added filtering for upcoming employee,",2020-04-01 06:32:37,57,18
+a5d98851a18bce28c78a59ec77cce781d21b5296,codal-sid,"RPT-99 #time 1h added entry of upcoming employee in employee model, added filtering for upcoming employee, fix issue of duplicate project entry and modified ordering in request api, calculate today's allocation of employee.",2020-04-01 06:31:14,57,18
+734b0e084abc5a6b1b6d26132c5100e54ebe526d,codal-jsojitra,manage move allocation step 2 and 1 data when step change,2020-04-01 06:17:36,16,14
+d6e57137b8acf73dfbe979a9b9870e04689e7404,codal-jsojitra,manage move allocation step 2 and 1 data when step change,2020-04-01 06:06:48,53,31
+c7025f4e12a2f751a7f74db4958e264ba9d985ff,codal-sid,"Merge pull request #144 from codal/project
+
+change the code that assign in Tuesday meeting",2020-03-31 11:17:01,64,30
+506c1992ba6210f9926b16f8bcc1669d6ce94ca6,codal-jsojitra,add redirection url,2020-03-31 11:14:05,12,3
+7aebc60d2fe847ebee8b477c04460b7e05b5d395,codal-jsojitra,display employye profile count,2020-03-31 08:48:53,7,4
+56ab41b684fb43c753d9f28b091d016c802589e1,codal-jsojitra,change the code that aasing in monday meeting,2020-03-31 08:24:37,46,24
+cb056f7ad8759416ab6942092d425f9259ba4828,codal-sid,"Merge pull request #142 from codal/project
+
+change project to request list redirection",2020-03-31 06:07:41,196,133
+69db8faa1864ec1ef9754569504dbc35bca5287d,codal-jsojitra,condtion change in request listing and change condition for FE if api is not availble code is  not break,2020-03-31 06:03:58,177,121
+7e8cbe0dc2d5405e554e0d75e57133b1ee19b73d,codal-sid,"Merge pull request #143 from codal/allocation
+
+added validation for while approve request.",2020-03-31 05:25:52,52,56
+5fb8d3a9fcd24067db60e5ac809520f17dabe13f,codal-sid,added validation for while approve request.,2020-03-30 14:22:00,52,56
+04b5cf29e54b8e92f0120fc918107b8fb0464a32,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-03-30 10:32:35,93,102
+5b87e57d0db9b89d53cd61828f1939bf4f3d00a9,codal-jsojitra,change project to request list redirection,2020-03-30 06:26:09,19,12
+026b94f65c5ebed58984506c46b19734c2798f2a,codal-sid,"Merge pull request #141 from codal/project
+
+date format issue solved",2020-03-30 05:28:37,20,29
+4fbdd3bbe010d147afbc983b8fda7827dbc511da,codal-sid,"Merge pull request #140 from codal/jira_intigrations
+
+chnage condition",2020-03-30 04:49:13,73,73
+f676b25c55f10d3a86b2f69a09b1434c1c05b042,pkiri-codal,Merge branch 'dev-development' of https://github.com/codal/rp-tool-py into previous_project,2020-03-27 16:35:33,399,212

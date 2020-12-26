@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">StudentAdmission</string>
+	<string name="hello">Hello World, StudentAdmissionActivity!</string>
+	<string name="main_tv_course">Course</string>
+	<string name="main_tv_nationality">Nationality</string>
+	<string name="main_et_full_name">Full Name of Applicant</string>
+	<string name="main_et_father_name">Father\'s Name</string>
+	<string name="main_et_mother_name">Mother\'s Name</string>
+	<string name="main_et_dob">Date Of Birth</string>
+	<string name="main_tv_gender">Gender</string>
+	<string name="main_rb_male">Male</string>
+	<string name="main_rb_female">Female</string>
+	<string name="main_et_phone">Phone</string>
+	<string name="main_et_email">Email</string>
+	<string name="main_et_10th_percentage">10th Percentage</string>
+	<string name="main_et_12th_percentage">12th Percentage</string>
+	<string name="main_et_bachelor_percentage">Bachelor\'s Percentage</string>
+	<string name="main_btn_submit">Submit</string>
+	<string name="main_tgb_off_text">Indian</string>
+	<string name="main_tgb_on_text">NRI</string>
+	<string-array name="courseItems">
+		<item>M.C.A</item>
+		<item>M.Sc(AI&amp;ML)</item>
+		<item>M.Tech(WT)</item>
+		<item>M.Tech(NS)</item>
+	</string-array>
+	<color name="layout_background">#dbc6ad</color>
+	
+</resources>

@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Poem</title>
+	</head>
+	<script type = "text/javascript" src = "prototype.js"></script>
+	<script>
+		function startTimer(){
+			new Ajax.PeriodicalUpdater("p1","Question6.jsp",{
+               method: 'get', frequency: 3, decay: 2
+            });
+		}
+	</script>
+	<body><center>
+		<form>
+			<input type="button" value="Get content" onclick="startTimer()">
+		</form>
+		<i><p id="p1">Text here!</p></center>
+	</body>
+</html>

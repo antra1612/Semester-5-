@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>
+			Food Items
+		</title>
+		<link rel="stylesheet" href="FoodItems.css">
+		<script type="text/javascript" src="FoodItems.js"></script>
+	</head>
+	<body>
+	
+		<form >
+				<label>Select coldrinks:</label>
+				<select class="myselect" id="colddrinks">
+					<option value="Pepsi-Rs 50">Pepsi-Rs 50</option>
+					<option value="Coke-Rs 50">Coke-Rs 50</option>
+					<option value="Chaas-Rs 30">Chaas-Rs 30</option>
+					<option value="Sprite-Rs 60">Sprite-Rs 60</option>
+				</select>
+		
+				<label>Select food:</label>
+				<select class="myselect" id="fooditems">
+					<option value="Pizza-Rs 100">Pizza-Rs 100</option>
+					<option value="Pasta-Rs 50">Pasta-Rs 50</option>
+					<option value="Brownie-Rs 80">Brownie-Rs 80</option>
+					<option value="Pav baji-Rs 150">Pav baji-Rs 150</option>
+				</select>
+		</form>
+		<button class="button" onclick="moveSelectedColdDrink()" >Add Coldrink</button>
+		<button class="button" onclick="moveSelectedFoodItems()" >Add Fooditem</button>
+		<form action="Bill.html">
+				<label>Selected coldrinks:</label>
+				<select class="myselect" id="selected_colddrinks" size="4">
+				</select>
+				<label>Selected foodItems:</label>
+				<select class="myselect" id="selected_fooditems" size="4">
+				</select>
+				<input type="submit" value="submit"  class="button" onclick="getBill()">
+		</form>
+		<button class="button" onclick="removeSelectedColdDrink()">Remove Coldrink</button>
+		<button class="button" onclick="removeSelectedFoodItems()">Remove Fooditem</button>
+	</body>
+</html>

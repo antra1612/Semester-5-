@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Student Form</string>
+    <string name="app_name">Hello</string>
+    <color name="layout_color">#E5CCFF</color>
+    <color name="font_color">#000000</color>
+    <color name="drop_downcolor">#FFFFFF</color>
+    <string-array name="Stream">
+        <item>MCA</item>
+        <item>MTech</item>
+        <item>MSc AI</item>
+        <item>BCA</item>
+    </string-array>
+</resources>

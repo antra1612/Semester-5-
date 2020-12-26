@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>
+			Image change
+		</title>
+		<link rel="stylesheet" href="Button.css">
+		<script language="jacvascript" type="text/javascript">
+			function changeQuote()
+			{
+				var number=Math.floor(Math.random() * 4);
+				var quoteSrc=["Anyone who has ever made anything of importance was disciplined.” — Andrew Hendrixson",
+				"“Don’t spend time beating on a wall, hoping to transform it into a door.” — Coco Chanel",
+				"“Creativity is intelligence having fun.” — Albert Einstein",
+				"“Optimism is the one quality more associated with success and happiness than any other.” — Brian Tracy",
+				" “Always keep your eyes open. Keep watching. Because whatever you see can inspire you.” — Grace Coddington"
+				];
+				document.getElementById("quotes").innerHTML=quoteSrc[number];
+			}
+		</script>
+	</head>
+	<body>
+		<p align="center" style="padding-top=100px;">
+			<div id="quotes">
+				“What you get by achieving your goals is not as important as what you become by achieving your goals.” — Henry David Thoreau
+			</div>
+			<button onclick="changeQuote()" class="button">Click to change Quote</button>
+		</p>
+	</body>
+</html>

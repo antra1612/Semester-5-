@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Hotel Registration Form"
+    />
+<TextView android:text="Hotel Name" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/hotelname" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <requestFocus></requestFocus>
+</EditText>
+<TextView android:text="Hotel Address" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/hoteladdress" android:layout_width="match_parent" android:layout_height="wrap_content"></EditText>
+<TextView android:text="Contact No" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/hotelcontactno" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="phone"></EditText>
+<TextView android:text="Email Address" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/hotelemail" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress"></EditText>
+<TextView android:text="No of Rooms" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/hotelrooms" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"></EditText>
+<Button android:text="Sign Up" android:id="@+id/hotelsignup" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="Update" android:id="@+id/updatebtn" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="Delete" android:id="@+id/deletebtn" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>

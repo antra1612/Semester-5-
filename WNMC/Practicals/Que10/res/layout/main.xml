@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<Button android:id="@+id/button1" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="Register"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"></Button>
+		<TextView android:layout_width="fill_parent" android:id="@+id/textView1"
+			android:layout_height="wrap_content" android:text="@string/hello"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp" />
+		<TextView android:text="Position:"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"></TextView>
+		<Spinner android:id="@+id/spinner1" android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp" android:layout_marginTop="20dp"></Spinner>
+		<EditText android:hint="First Name" android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_width="139dp" android:layout_marginLeft="20dp"></EditText>
+		<EditText android:hint="Last Name" android:layout_height="wrap_content" android:id="@+id/editText2" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_width="132dp">
+			<requestFocus></requestFocus>
+		</EditText>
+		<TextView android:text="Date of Birth:" android:id="@+id/textView2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"></TextView>
+		<DatePicker android:id="@+id/datePicker1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"></DatePicker>
+		<EditText android:id="@+id/editText4" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:inputType="phone"
+			android:hint="Phone Number" android:layout_marginLeft="20dp"
+			android:layout_marginRight="20dp" android:layout_marginTop="20dp"></EditText>
+		<EditText android:id="@+id/editText5" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:hint="Qualification"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"></EditText>
+		<EditText android:id="@+id/editText7" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:hint="Experience"
+			android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+			android:layout_marginTop="20dp"></EditText>
+		
+	</LinearLayout>
+</ScrollView>

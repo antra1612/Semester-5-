@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Poem</title>
+	</head>
+	<script>
+		var request;
+		function showContent()
+		{
+			if(window.XMLHttpRequest){
+				request = new XMLHttpRequest();
+			}
+			else if(window.ActiveXObject){
+				request = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			try{
+				request.onreadystatechange=getContent;
+				request.open("GET","File1.txt",true);
+				request.send();
+				alert(request.readyState);
+			}
+			catch(e){
+				alert("Unable to connect ro server!");
+			}
+		}
+		function getContent(){
+		if(request.readyState==4){
+				var val = request.responseText;
+				document.getElementById("p1").innerHTML=val;
+			}
+		}
+	</script>
+	<body><center>
+		<form>
+			<input type="button" value="Get content" onclick="showContent()">
+		</form>
+		<i><p id="p1">Text here!</p></center>
+	</body>
+</html>

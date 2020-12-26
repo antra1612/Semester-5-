@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloActivity!</string>
+    <string name="app_name">Hello</string>
+    <string name="string2">Antra</string>
+    <string name="string3">Welcome</string>
+    <color name="red">#FF0000</color>
+    <dimen name="width">100px</dimen>
+    <string-array name="subjects">
+        <item>Maths</item>
+        <item>Science</item>
+        <item>English</item>
+    </string-array>
+        <string name="str">Enter name</string>
+</resources>

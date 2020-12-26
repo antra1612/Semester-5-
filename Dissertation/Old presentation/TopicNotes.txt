@@ -1,0 +1,15 @@
+The future of YouTube and multimedia distribution platforms
+
+Analyzing the impact of media technology on child development throughout school
+
+Investigation of web teaching aid system.
+
+What is VCS?
+Why it is required?
+Distributed and Non-distributed.
+Working of GIT.
+Different options avaailable in market(GIT,Subversion,Mercurial)
+
+Proposed: Geo tagging, 
+
+
